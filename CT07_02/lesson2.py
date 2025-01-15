@@ -22,5 +22,6 @@ while True:
     items.append(item)
     if input("Is that all? ") == "Yes":
         break
+money = 15
 for i in items:
     print(i)
