@@ -23,6 +23,7 @@ while True:
     if input("Is that all? ") == "Yes":
         break
 money = 15
+print()
 for i in items:
     print(i)
     money += 2
