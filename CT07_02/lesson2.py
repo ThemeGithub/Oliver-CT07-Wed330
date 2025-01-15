@@ -47,7 +47,7 @@ while question != 3:
                 elif question == 1:
                     print("MCQ: 1, 2, 10, 11")
                 else:
-                    print("MCQ: blue, cyan, turquoise, ")
+                    print("MCQ: blue, cyan, turquoise, sky")
             else:
                 print("boo")
     else:
