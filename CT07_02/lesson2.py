@@ -26,4 +26,4 @@ money = 15
 for i in items:
     print(i)
     money += 2
-print("Your total money is $" + str())
+print("Your total money is $" + str(money))
