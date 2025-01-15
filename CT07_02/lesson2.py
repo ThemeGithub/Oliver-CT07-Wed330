@@ -17,4 +17,4 @@
 # print(score)
 
 while True:
-    
+    item = input("")
