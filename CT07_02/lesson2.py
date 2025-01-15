@@ -7,7 +7,7 @@ for i in range(10):
     while True:
         ans = int(input(f'{n1} ^ {n2} = '))
         if ans == n1**n2:
-            print("Correct, +" + score)
+            print("Correct, + 1000")
             break
         else:
             print("wrong")
