@@ -33,7 +33,7 @@ questions = [
     "Are you dumb", "What is 1 + 1", "What is the color of the sky"
 ]
 answers = [
-    "yes", "2", ""
+    "yes", "10", "blue"
 ]
 
 
