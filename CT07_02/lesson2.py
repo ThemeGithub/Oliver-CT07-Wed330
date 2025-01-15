@@ -35,7 +35,10 @@ questions = [
 answers = [
     "yes", "10", "cyan"
 ]
+question = 1
 
+while question != 3:
+    ans = 
 
 
 '''
