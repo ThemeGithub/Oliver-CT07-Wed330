@@ -40,7 +40,7 @@ ans = ""
 while question != 2:
     while ans != answers[question]:
         ans = input(questions[question])
-        if ans != answers.question:
+        if ans != answers[question]:
             print("boo")
     else:
         print("yay")
