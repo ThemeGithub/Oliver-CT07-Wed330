@@ -1,4 +1,4 @@
-# import random
+import random
 
 # score = 0
 # for i in range(10):
@@ -41,24 +41,13 @@ while question != 3:
     while ans != answers[question]:
         ans = input(questions[question])
         if ans != answers[question]:
-            print("boo")
+            if ans == "ability":
+                if question == 0:
+                    print("MCQ: no, yes, maybe, idk")
+                elif question == 1:
+                    print()
+            else:
+                print("boo")
     else:
         print("yay")
     question += 1
-
-'''
-## Task 5: General Knowledge Quiz
-**Task: Create a program to quiz users on their general
-knowledge**
-
-Using the while loop, ask 3 general knowledge questions
-1. Using input ask the question
-2. While answer is not correct, repeat the question.
-3. Move on to the next question when the answer is correct
-
-Bonus:
-1. Add a score system
-2. Add an ability for users to skip by saying “skip”
-3. Disqualify user when they have tried too many times
-
-'''
