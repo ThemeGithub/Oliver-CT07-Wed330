@@ -10,4 +10,4 @@ for i in range(10):
             print("Correct, + 1000")
             break
         else:
-            print("wrong")
+            print("Wrong, -")
