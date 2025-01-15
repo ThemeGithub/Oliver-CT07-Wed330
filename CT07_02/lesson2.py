@@ -18,4 +18,4 @@
 
 while True:
     item = input("I want ")
-    
+    items.append()
