@@ -1,14 +1,5 @@
-i = 0
-while i < 21:
+while True:
+    if i == 20:
+        break
     print(i)
-    i += 1
-
-i = 1
-while i < 31:
-    print(i)
-    i += 1
-
-i = 2
-while i < 26:
-    print(i)
-    i += 2
+    
