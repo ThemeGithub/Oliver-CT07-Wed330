@@ -23,4 +23,4 @@ while True:
     if input("Is that all? ") == "Yes":
         break
 for i in items:
-    print()
+    print(i)
