@@ -38,7 +38,7 @@ answers = [
 question = 1
 
 while question != 3:
-    ans = 
+    ans = input(questions.question)
 
 
 '''
