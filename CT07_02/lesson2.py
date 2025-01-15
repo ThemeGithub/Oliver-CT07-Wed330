@@ -21,6 +21,6 @@ while True:
     item = input("I want ")
     items.append(item)
     if input("Is that all? ") == "Yes":
-        print(items)
         break
-print()
+for i in items:
+    print()
