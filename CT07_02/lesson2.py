@@ -30,7 +30,7 @@
 # print("Your total money is $" + str(money))
 
 questions = {
-    
+    "Are you dumb": 
 }
 '''
 ## Task 5: General Knowledge Quiz
