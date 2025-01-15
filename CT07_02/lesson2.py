@@ -29,7 +29,9 @@
 #     money += 2
 # print("Your total money is $" + str(money))
 
-questions = []
+questions = [
+    "Are you dumb"
+]
 
 
 
