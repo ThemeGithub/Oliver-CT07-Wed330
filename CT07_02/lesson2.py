@@ -30,9 +30,9 @@
 # print("Your total money is $" + str(money))
 
 questions = [
-    "Are you dumb", "What is 1 + 1", "What is "
+    "Are you dumb", "What is 1 + 1", "What is the color of the sky"
 ]
-
+answers = []
 
 
 
