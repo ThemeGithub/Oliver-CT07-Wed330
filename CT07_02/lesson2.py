@@ -16,7 +16,8 @@
 
 # print(score)
 
-
+items = []
 while True:
     item = input("I want ")
     items.append(item)
+    
