@@ -7,5 +7,5 @@ for i in range(10):
         if ans == n1**n2:
             print("Correct")
             break
-    else:
-        print("wrong")
+        else:
+            print("wrong")
