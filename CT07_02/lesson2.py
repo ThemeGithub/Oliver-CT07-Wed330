@@ -1,8 +1,8 @@
 import random
 
 while True:
-    n1 = math.random(2, 6)
-    n2 = random.random
+    n1 = random.random(2, 6)
+    n2 = random.random(2, 4)
     ans = int(input("1 + 1 "))
     if ans == 2:
         print("Correct")
