@@ -32,7 +32,9 @@
 questions = [
     "Are you dumb", "What is 1 + 1", "What is the color of the sky"
 ]
-answers = []
+answers = [
+    "yes", "2", ""
+]
 
 
 
