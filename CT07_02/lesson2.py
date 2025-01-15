@@ -1,4 +1,6 @@
 import random
+
+
 for i in range(10):
     n1 = random.randint(2, 6)
     n2 = random.randint(2, 4)
