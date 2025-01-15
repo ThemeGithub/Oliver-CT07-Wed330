@@ -45,7 +45,7 @@ while question != 3:
                 if question == 0:
                     print("MCQ: no, yes, maybe, idk")
                 elif question == 1:
-                    print()
+                    print("MCQ: 1, 2, 10, 11")
             else:
                 print("boo")
     else:
