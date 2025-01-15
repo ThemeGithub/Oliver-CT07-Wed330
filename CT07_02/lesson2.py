@@ -29,9 +29,11 @@
 #     money += 2
 # print("Your total money is $" + str(money))
 
-questions = {
-    "Are you dumb": "No"
-}
+questions = []
+
+
+
+
 '''
 ## Task 5: General Knowledge Quiz
 **Task: Create a program to quiz users on their general
