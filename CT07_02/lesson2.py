@@ -38,9 +38,12 @@ answers = [
 question = 1
 
 while question != 3:
-    ans = input(questions.question)
-    if ans == answers.question:
-        print(yay)
+    while ans != answers.question:
+        ans = input(questions.question)
+        if ans != answers.question:
+            print("boo")
+    else:
+        print("yay")
 
 
 '''
