@@ -44,7 +44,7 @@ while question != 2:
             print("boo")
     else:
         print("yay")
-    question
+    question += 1
 
 '''
 ## Task 5: General Knowledge Quiz
