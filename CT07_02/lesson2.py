@@ -37,7 +37,7 @@ answers = [
 ]
 question = 0
 ans = ""
-while question != 2:
+while question != 3:
     while ans != answers[question]:
         ans = input(questions[question])
         if ans != answers[question]:
