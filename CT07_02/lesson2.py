@@ -1,2 +1,2 @@
 while True:
-    ans = 
+    ans = int(input("1 + 1"))
