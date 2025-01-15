@@ -13,3 +13,5 @@ for i in range(10):
         else:
             print("Wrong, - 1000")
             score -= 1000
+
+print(score)
