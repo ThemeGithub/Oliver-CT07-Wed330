@@ -36,7 +36,7 @@ answers = [
     "yes", "10", "cyan"
 ]
 question = 1
-
+ans = ""
 while question != 3:
     while ans != answers.question:
         ans = input(questions.question)
