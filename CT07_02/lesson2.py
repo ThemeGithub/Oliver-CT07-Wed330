@@ -1,6 +1,7 @@
 import random
 
-
+lives = 3
+score = 0
 for i in range(10):
     n1 = random.randint(2, 6)
     n2 = random.randint(2, 4)
