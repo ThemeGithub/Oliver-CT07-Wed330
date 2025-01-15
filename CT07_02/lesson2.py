@@ -38,8 +38,8 @@ answers = [
 question = 1
 ans = ""
 while question != 3:
-    while ans != answers.question:
-        ans = input(questions.question)
+    while ans != answers[question]:
+        ans = input(questions[question])
         if ans != answers.question:
             print("boo")
     else:
