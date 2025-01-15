@@ -16,18 +16,18 @@
 
 # print(score)
 
-items = []
-while True:
-    item = input("I want ")
-    items.append(item)
-    if input("Is that all? ") == "Yes":
-        break
-money = 15
-print("You ordered ")
-for i in items:
-    print(i)
-    money += 2
-print("Your total money is $" + str(money))
+# items = []
+# while True:
+#     item = input("I want ")
+#     items.append(item)
+#     if input("Is that all? ") == "Yes":
+#         break
+# money = 15
+# print("You ordered ")
+# for i in items:
+#     print(i)
+#     money += 2
+# print("Your total money is $" + str(money))
 
 
 '''
