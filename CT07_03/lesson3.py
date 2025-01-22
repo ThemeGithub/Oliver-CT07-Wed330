@@ -34,5 +34,5 @@ for i in range(timer):
         time.sleep(60)
     ttime = ttime - 1
     if addon == "CountUp":
-        print("You have " + str(ttime) + " minutes left ")
+        print("You have " + str(ttime) + " " + timeunit + "" left ")
 print("TIMES UP")
