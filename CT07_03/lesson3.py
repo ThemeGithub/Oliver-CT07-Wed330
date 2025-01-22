@@ -22,10 +22,12 @@ print("Hours: Takes in hours instead of minutes")
 print("Seconds: Takes in seconds instead of minutes")
 print("Stopwatch: Tells you how much time there is every minute, no timer")
 addon = input("Which addons do you want to implement? ")
+timeunit = "m"
 ttime = timer
 for i in range(timer):
     if addon == "Hours":
         time.sleep(3600)
+        
     elif addon == "Seconds":
         time.sleep(1)
     else:
