@@ -75,3 +75,8 @@ for i in range(15):
         a1 = r.randint(2, 20)
         a2 = r.randint(2, 20)
     answer = int(input("What is " + str(a1) + " * " + str(a2) + "?"))
+    if answer != a1 * a2:
+        print("Wrong, try again!")
+        min = min * 0.75
+    else:
+        print("yay, correct")
