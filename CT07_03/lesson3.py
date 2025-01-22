@@ -15,8 +15,8 @@
 #     print("u are dumb")
 
 import time
-
 timer = int(input("How many minutes is the timer? "))
+addons = input()
 ttime = timer
 for i in range(timer):
     time.sleep(1)
