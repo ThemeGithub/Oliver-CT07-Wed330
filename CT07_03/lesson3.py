@@ -48,3 +48,4 @@ while True:
     money = money + add
     if money >= 100:
         print("you saved $100, time to go for $1000!")
+        break
