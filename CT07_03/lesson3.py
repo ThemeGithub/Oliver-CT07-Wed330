@@ -8,4 +8,4 @@ for i in range(3):
 if answer == "answer":
     print("Correct")
 else:
-    
+    print("u are dumb")
