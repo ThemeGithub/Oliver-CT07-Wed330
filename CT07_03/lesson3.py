@@ -45,4 +45,4 @@
 money = 0
 while True:
     add = int(input("How much did you safe today?"))
-    
+    money = money + add
