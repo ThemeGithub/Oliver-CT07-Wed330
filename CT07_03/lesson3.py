@@ -14,4 +14,4 @@
 # else:
 #     print("u are dumb")
 
-in
+time = int(input("How many minutes is the timer? "))
