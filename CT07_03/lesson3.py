@@ -20,7 +20,7 @@ print("Addons:")
 print("CountUp: Counts up, instead of down")
 print("Hours: Takes in hours instead of minutes")
 print("Seconds: Takes in seconds instead of minutes")
-addons = input("Which addons do you want to implement? ")
+addon = input("Which addons do you want to implement? ")
 ttime = timer
 for i in range(timer):
     time.sleep(1)
