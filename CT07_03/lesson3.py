@@ -81,3 +81,4 @@ for i in range(15):
         max = max * 0.7
     else:
         print("yay, correct")
+        min = min * 1.
