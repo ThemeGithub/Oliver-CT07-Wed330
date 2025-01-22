@@ -81,12 +81,12 @@ for i in range(15):
             lives = lives - 1
             min = min * 0.75
             max = max * 0.7
-    else:
-        print("yay, correct")
-        min = min * 2
-        max = max * 1.75
-        if min > 350:
-            min = 350
+        else:
+            print("yay, correct")
+            min = min * 2
+            max = max * 1.75
+            if min > 350:
+                min = 350
     if lives == 0:
         print("GO AND SEE TEACHER I FORGOT NAME")
         break
