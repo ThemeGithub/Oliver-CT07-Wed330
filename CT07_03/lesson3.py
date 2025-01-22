@@ -16,7 +16,7 @@
 
 import time
 timer = int(input("How many minutes is the timer? "))
-addons = input()
+addons = input("Which addons do you want to implement? ")
 ttime = timer
 for i in range(timer):
     time.sleep(1)
