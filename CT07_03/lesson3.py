@@ -21,5 +21,5 @@ for i in range(timer):
     ttime = ttime - 1
     ans = input("You have " + str(ttime) + " minutes left ")
     if ans == "stop":
-        break
         print("stop")
+        break
