@@ -35,4 +35,6 @@ for i in range(timer):
     ttime = ttime - 1
     if addon == "CountUp":
         print("You have " + str(ttime) + " " + timeunit + " left")
+    else:
+        print("You have " + str(ttime) + " " + timeunit + " left")
 print("TIMES UP")
