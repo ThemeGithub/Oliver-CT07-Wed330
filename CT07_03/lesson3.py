@@ -44,4 +44,5 @@
 # print("TIMES UP")
 money = 0
 while True:
-    add = ""
+    add = int(input("How much did you safe today?"))
+    
