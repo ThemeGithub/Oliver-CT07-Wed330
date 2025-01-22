@@ -42,24 +42,28 @@
 #     else:
 #         print("You have " + str(ttime) + " " + timeunit + " left")
 # print("TIMES UP")
-money = 0
-while True:
-    add = int(input("How much did you save today?"))
-    money = money + add
-    if money >= 100:
-        print("you saved $100, time to go for $1000!")
-        break
+# money = 0
+# while True:
+#     add = int(input("How much did you save today?"))
+#     money = money + add
+#     if money >= 100:
+#         print("you saved $100, time to go for $1000!")
+#         break
 
-while True:
-    add = int(input("How much did you save today?"))
-    money = money + add
-    if money >= 1000:
-        print("you saved $1000, time to go for $10000!")
-        break
+# while True:
+#     add = int(input("How much did you save today?"))
+#     money = money + add
+#     if money >= 1000:
+#         print("you saved $1000, time to go for $10000!")
+#         break
 
-while True:
-    add = int(input("How much did you save today?"))
-    money = money + add
-    if money >= 10000:
-        print("you saved $10000, time buy a house!")
-        break
+# while True:
+#     add = int(input("How much did you save today?"))
+#     money = money + add
+#     if money >= 10000:
+#         print("you saved $10000, time buy a house!")
+#         break
+
+
+
+
