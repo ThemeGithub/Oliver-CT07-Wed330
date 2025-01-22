@@ -17,7 +17,7 @@ import time
 timer = int(input("How many minutes is the timer? "))
 ttime = timer
 for i in range(timer):
-    time.sleep(10)
+    time.sleep(1)
     ttime = ttime - 1
     ans = input("You have " + str(ttime) + " minutes left ") == "stop"
     if ans == "stop":
