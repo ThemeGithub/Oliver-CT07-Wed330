@@ -84,4 +84,5 @@ for i in range(15):
         print("yay, correct")
         min = min * 2
         max = max * 1.75
-    if lives == 
+    if lives == 0:
+        print("")
