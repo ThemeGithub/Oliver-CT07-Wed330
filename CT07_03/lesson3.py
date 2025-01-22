@@ -6,6 +6,7 @@ for i in range(3):
     if not answer == "answer":
         hint = random.randint(1, len(hints))
         print(hints[hint])
+        hints.pop()
     else:
         break
 if answer == "answer":
