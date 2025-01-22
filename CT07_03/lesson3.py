@@ -70,4 +70,4 @@ max = 50
 lives = 3
 for i in range(15):
     
-    
+    a1 = random.randint()
