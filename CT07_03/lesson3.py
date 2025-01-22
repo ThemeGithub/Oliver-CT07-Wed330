@@ -20,6 +20,7 @@ print("Addons:")
 print("CountUp: Counts up, instead of down")
 print("Hours: Takes in hours instead of minutes")
 print("Seconds: Takes in seconds instead of minutes")
+print("Stopwatch: Tells you how much time there is every minute, no timer")
 addon = input("Which addons do you want to implement? ")
 ttime = timer
 for i in range(timer):
