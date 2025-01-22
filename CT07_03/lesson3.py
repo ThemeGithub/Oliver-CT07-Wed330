@@ -1,5 +1,6 @@
 import random
-hints = ["read the question", "it starts with 'A'", "it ends with 'R'", "it has 2 voewls", "it is in the question"answer = ""
+hints = ["read the question", "it starts with 'A'", "it ends with 'R'", "it has 2 voewls", "it is in the question"]
+answer = ""
 for i in range(3):
     answer = input("type answer to answer this riddle: ")
     if not answer == "answer":
