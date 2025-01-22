@@ -13,13 +13,12 @@
 #     print("Correct")
 # else:
 #     print("u are dumb")
+
 import time
+
 timer = int(input("How many minutes is the timer? "))
 ttime = timer
 for i in range(timer):
     time.sleep(1)
     ttime = ttime - 1
     print("You have " + str(ttime) + " minutes left ")
-    if ans == "stop":
-        print("stop")
-        break
