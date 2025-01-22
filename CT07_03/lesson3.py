@@ -24,7 +24,8 @@ print("Stopwatch: Tells you how much time there is every minute, no timer")
 addon = input("Which addons do you want to implement? ")
 ttime = timer
 for i in range(timer):
-    if addon == "Hours"
+    if addon == "Hours":
+        time.sleep(3)
     time.sleep(60)
     ttime = ttime - 1
     print("You have " + str(ttime) + " minutes left ")
