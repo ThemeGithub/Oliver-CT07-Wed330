@@ -5,4 +5,5 @@ for i in range(3):
         print("read the question")
     else:
         break
-print("Correct")
+if answer == "answer":
+    print("Correct")
