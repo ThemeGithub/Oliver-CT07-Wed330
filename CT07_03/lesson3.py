@@ -74,4 +74,4 @@ for i in range(15):
     while a1 * a2 > max or a1 * a2 < min:
         a1 = r.randint(2, 20)
         a2 = r.randint(2, 20)
-    
+    answer = int(input())
