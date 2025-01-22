@@ -85,4 +85,4 @@ for i in range(15):
         min = min * 2
         max = max * 1.75
     if lives == 0:
-        print("")
+        print("GO AND SEE TEACHER I FORGOT NAME")
