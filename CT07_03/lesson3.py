@@ -27,3 +27,4 @@ for i in range(timer):
     time.sleep(1)
     ttime = ttime - 1
     print("You have " + str(ttime) + " minutes left ")
+print("TIMES UP")
