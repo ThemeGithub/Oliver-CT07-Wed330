@@ -88,3 +88,4 @@ for i in range(15):
             min = 350
     if lives == 0:
         print("GO AND SEE TEACHER I FORGOT NAME")
+        break
