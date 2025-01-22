@@ -16,7 +16,8 @@
 
 import time
 timer = int(input("How many minutes is the timer? "))
-print("Addons: CountUp")
+print("Addons:
+      CountUp:")
 addons = input("Which addons do you want to implement? ")
 ttime = timer
 for i in range(timer):
