@@ -30,7 +30,7 @@ for i in range(timer):
         timeunit = "hours"
     elif addon == "Seconds":
         time.sleep(1)
-        
+        timeunit = "seconds"
     else:
         time.sleep(60)
     ttime = ttime - 1
