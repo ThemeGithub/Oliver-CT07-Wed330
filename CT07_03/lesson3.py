@@ -63,8 +63,10 @@
 #     if money >= 10000:
 #         print("you saved $10000, time buy a house!")
 #         break
+    
 
 min = 10
 max = 50
+lives = 3
 for i in range(15):
     generate()
