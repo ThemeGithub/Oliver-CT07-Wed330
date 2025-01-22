@@ -87,6 +87,6 @@ for i in range(15):
             max = max * 1.75
             if min > 350:
                 min = 350
-    if lives < 0:
+    if lives <= 0:
         print("GO AND SEE TEACHER I FORGOT NAME")
         break
