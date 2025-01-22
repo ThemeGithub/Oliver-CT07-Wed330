@@ -64,8 +64,6 @@
 #         print("you saved $10000, time buy a house!")
 #         break
 
-function generat
-
 min = 10
 max = 50
 for i in range(15):
