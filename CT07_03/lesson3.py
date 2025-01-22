@@ -84,7 +84,7 @@ for i in range(15):
         print("yay, correct")
         min = min * 2
         max = max * 1.75
-        if max > 350:
-            max = 350
+        if min > 350:
+            min = 350
     if lives == 0:
         print("GO AND SEE TEACHER I FORGOT NAME")
