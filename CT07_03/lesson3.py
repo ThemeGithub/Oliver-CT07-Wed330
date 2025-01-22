@@ -18,7 +18,7 @@ timer = int(input("How many minutes is the timer? "))
 ttime = timer
 for i in range(timer):
     time.sleep(10)
-    ttime =- 1
-    ans = input("You have " + str(ttime) + " minutes left") == "stop"
+    ttime = ttime - 1
+    ans = input("You have " + str(ttime) + " minutes left ") == "stop"
     if ans == "stop":
         break
