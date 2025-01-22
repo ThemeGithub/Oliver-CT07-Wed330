@@ -14,8 +14,8 @@
 # else:
 #     print("u are dumb")
 
-time = int(input("How many minutes is the timer? "))
-ttime = time
-for i in range(time):
+timer = int(input("How many minutes is the timer? "))
+ttime = timer
+for i in range(timer):
     time.sleep(60)
     ttime =- 1
