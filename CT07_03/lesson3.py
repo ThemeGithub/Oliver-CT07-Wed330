@@ -66,4 +66,7 @@
 
 
 
-
+min = 10
+max = 50
+for i in range(15):
+    gene
