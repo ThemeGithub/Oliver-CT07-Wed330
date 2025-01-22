@@ -71,4 +71,5 @@ lives = 3
 for i in range(15):
     
     a1 = random.randint(2, 20)
+    a2 = random.randint(2, 20)
     
