@@ -24,7 +24,7 @@ print("Stopwatch: Tells you how much time there is every minute, no timer")
 addon = input("Which addons do you want to implement? ")
 if addon == "Stopwatch":
     addon = "CountUp"
-    timer = 99999999*99999999*9999999999*9999999999*999999999*9999999*999999999
+    timer = 99999999**99999999**9999999999**9999999999*999999999*9999999*999999999
 timeunit = "minutes"
 ttime = timer
 for i in range(timer):
