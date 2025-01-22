@@ -68,6 +68,7 @@ import random as r
 min = 10
 max = 50
 lives = 3
+answer = 0
 for i in range(15):    
     a1 = r.randint(2, 20)
     a2 = r.randint(2, 20)
