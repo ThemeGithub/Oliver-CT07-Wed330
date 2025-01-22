@@ -44,7 +44,7 @@
 # print("TIMES UP")
 money = 0
 while True:
-    add = int(input("How much did you safe today?"))
+    add = int(input("How much did you save today?"))
     money = money + add
     if money >= 100:
         print("you saved $100, time to go for $1000!")
@@ -54,5 +54,5 @@ while True:
     add = int(input("How much did you save today?"))
     money = money + add
     if money >= 0:
-        print("you saved $1000, time to go for $1000!")
+        print("you saved $1000, time to go for $10000!")
         break
