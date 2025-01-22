@@ -19,5 +19,6 @@ ttime = timer
 for i in range(timer):
     time.sleep(60)
     ttime =- 1
-    if input("You have " + str(ttime) + " minutes left") == "stop":
+    ans = input("You have " + str(ttime) + " minutes left") == "stop"
+    if ans == "stop":
         break
