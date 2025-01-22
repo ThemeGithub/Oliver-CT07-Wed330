@@ -72,5 +72,6 @@ for i in range(15):
     a1 = r.randint(2, 20)
     a2 = r.randint(2, 20)
     while a1 * a2 > max or a1 * a2 < min:
-    a1 = r.randint(2, 20)
-    a2 = r.randint(2, 20)
+        a1 = r.randint(2, 20)
+        a2 = r.randint(2, 20)
+    
