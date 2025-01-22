@@ -1,5 +1,5 @@
 import random
-hints = {"read the question"}
+hints = {"read the question", "it starts with "}
 answer = ""
 for i in range(3):
     answer = input("type answer to answer this riddle: ")
