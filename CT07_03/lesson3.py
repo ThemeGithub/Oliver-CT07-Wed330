@@ -53,13 +53,13 @@ while True:
 while True:
     add = int(input("How much did you save today?"))
     money = money + add
-    if money >= 0:
+    if money >= 1000:
         print("you saved $1000, time to go for $10000!")
         break
 
 while True:
     add = int(input("How much did you save today?"))
     money = money + add
-    if money >= 0:
+    if money >= 10000:
         print("you saved $10000, time buy a house!")
         break
