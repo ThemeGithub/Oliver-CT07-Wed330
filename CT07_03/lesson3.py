@@ -77,8 +77,11 @@ for i in range(15):
     answer = int(input("What is " + str(a1) + " * " + str(a2) + "?"))
     if answer != a1 * a2:
         print("Wrong, try again!")
+        lives = lives - 1
         min = min * 0.75
         max = max * 0.7
     else:
         print("yay, correct")
-        min = min * 1.
+        min = min * 2
+        max = max * 1.75
+    if lives == 
