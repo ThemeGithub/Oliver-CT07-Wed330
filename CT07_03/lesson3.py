@@ -5,7 +5,7 @@ for i in range(3):
     answer = input("type answer to answer this riddle: ")
     if not answer == "answer":
         hint = random.randint(1, len(hints))
-        print(hints.hint)
+        print(hints[hint])
     else:
         break
 if answer == "answer":
