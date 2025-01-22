@@ -78,5 +78,6 @@ for i in range(15):
     if answer != a1 * a2:
         print("Wrong, try again!")
         min = min * 0.75
+        max = max * 0.7
     else:
         print("yay, correct")
