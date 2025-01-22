@@ -76,11 +76,11 @@ for i in range(15):
         a2 = r.randint(2, 20)
     while answer != a1 * a2:
         answer = int(input("What is " + str(a1) + " * " + str(a2) + "? "))
-    if answer != a1 * a2:
-        print("Wrong, try again!")
-        lives = lives - 1
-        min = min * 0.75
-        max = max * 0.7
+        if answer != a1 * a2:
+            print("Wrong, try again!")
+            lives = lives - 1
+            min = min * 0.75
+            max = max * 0.7
     else:
         print("yay, correct")
         min = min * 2
