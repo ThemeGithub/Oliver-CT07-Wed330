@@ -39,7 +39,7 @@
 food = []
 price = []
 while True:
-    item = input("What do vyou eat ")
+    item = input("What do vyou add ")
     if item == "end":
         break
     food.append(item)
