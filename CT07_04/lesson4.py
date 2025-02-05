@@ -43,4 +43,4 @@ while True:
         break
     food.append(item)
 for i in food:
-    print("i want to not not go " + i)
+    print("i want to not not add " + i)
