@@ -36,7 +36,7 @@
 #     print("i want to not not go " + i)
 
 
-countries = []
+food = []
 while True:
     country = input("Where do vyou go ")
     if country == "end":
