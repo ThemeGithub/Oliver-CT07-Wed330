@@ -13,4 +13,4 @@
 
 planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"]
 planets[3] = "J1407b"
-planets.insert()
+planets.insert(3, "Land")
