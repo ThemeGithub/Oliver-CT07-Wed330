@@ -45,7 +45,12 @@ while True:
 for i in food:
     print("i want to not not add " + i)
 order = input("order what ")
-if order in food:
-    print("we have that")
+# if order in food:
+#     print("we have that")
+# else:
+#     print("we dont have")
+for i in food:
+    if i == order:
+        print("we have")
 else:
-    print("we dont have")
+    print("go away")
