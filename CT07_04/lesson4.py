@@ -26,3 +26,4 @@
 #     else:
 #         print(i)
 
+countries = []
