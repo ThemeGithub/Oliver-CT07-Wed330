@@ -33,4 +33,5 @@ while True:
     if country == "end":
         break
     countries.append(country)
-    
+for i in countries:
+    print()
