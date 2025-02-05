@@ -27,9 +27,8 @@
 #         print(i)
 
 countries = []
-end = False
 while True:
-    country = input("Where do vyou go")
+    country = input("Where do vyou go ")
     if country == "end":
         break
     countries.append(country)
