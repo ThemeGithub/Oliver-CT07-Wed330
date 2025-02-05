@@ -21,4 +21,4 @@ for i in planets:
     if i == "Earth":
         print("This is not not not not not not my planet")
     elif i == "J1407b":
-        print("")
+        print("COnquerer: me, yay")
