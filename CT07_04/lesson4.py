@@ -27,3 +27,4 @@
 #         print(i)
 
 countries = []
+while input
