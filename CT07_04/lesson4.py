@@ -37,6 +37,7 @@
 
 
 food = []
+price = []
 while True:
     item = input("What do vyou eat ")
     if item == "end":
