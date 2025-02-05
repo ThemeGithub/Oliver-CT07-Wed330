@@ -22,3 +22,5 @@ for i in planets:
         print("This is not not not not not not my planet")
     elif i == "J1407b":
         print("COnquerer: me, yay")
+    elif i == "Land":
+        print("")
