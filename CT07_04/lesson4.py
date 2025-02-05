@@ -12,3 +12,4 @@
 #     print("NEW YEAR HAPPY")
 
 planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"]
+planets[3] = "J1407b"
