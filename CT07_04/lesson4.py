@@ -18,9 +18,9 @@ planets.insert(3, "Land")
 planets.insert(6, planets.pop(5))
 for i in planets:
     if i == "Earth":
-        print("This is not not not not not not my planet")
+        print("Eart: This is not not not not not not my planet")
     elif i == "J1407b":
-        print("COnquerer: me, yay")
+        print("b70COnquerer: me, yay")
     elif i == "Land":
         print("made in china (me)")
     else:
