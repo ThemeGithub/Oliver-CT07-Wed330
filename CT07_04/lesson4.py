@@ -51,10 +51,11 @@ order = input("order what ")
 #     print("we have that")
 # else:
 #     print("we dont have")
-
+n = 0
 for i in food:
     if i == order:
         print("we have for " + price[i])
         break
+    
 else:
     print("go away")
