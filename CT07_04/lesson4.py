@@ -27,4 +27,6 @@
 #         print(i)
 
 countries = []
-while input
+end = False
+while not end:
+    countries.append()
