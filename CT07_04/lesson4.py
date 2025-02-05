@@ -16,7 +16,6 @@ planets[3] = "J1407b"
 planets.append("Plucto")
 planets.insert(3, "Land")
 planets.insert(6, planets.pop(5))
-print(planets)
 for i in planets:
     print(i)
     if i == "Earth":
