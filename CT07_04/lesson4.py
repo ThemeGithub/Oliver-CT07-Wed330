@@ -52,5 +52,6 @@ order = input("order what ")
 for i in food:
     if i == order:
         print("we have")
+        break
 else:
     print("go away")
