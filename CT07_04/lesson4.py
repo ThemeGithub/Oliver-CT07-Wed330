@@ -38,8 +38,8 @@
 
 food = []
 while True:
-     = input("What do vyou eat ")
-    if country == "end":
+    item = input("What do vyou eat ")
+    if item == "end":
         break
     countries.append(country)
 for i in countries:
