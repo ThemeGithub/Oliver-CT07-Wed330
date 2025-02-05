@@ -44,3 +44,4 @@ while True:
     food.append(item)
 for i in food:
     print("i want to not not add " + i)
+order = input("order what ")
