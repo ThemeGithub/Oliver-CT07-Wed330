@@ -20,7 +20,7 @@ for i in planets:
     if i == "Earth":
         print("Eart: This is not not not not not not my planet")
     elif i == "J1407b":
-        print("b70COnquerer: me, yay")
+        print("b7041J: COnquerer: me, yay")
     elif i == "Land":
         print("made in china (me)")
     else:
