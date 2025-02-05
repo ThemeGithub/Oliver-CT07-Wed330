@@ -29,4 +29,4 @@
 countries = []
 end = False
 while not end:
-    countries.append()
+    countries.append(input)
