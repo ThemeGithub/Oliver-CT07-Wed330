@@ -64,33 +64,33 @@
 #         print("you saved $10000, time buy a house!")
 #         break
     
-import random as r
-min = 10
-max = 50
-lives = 3
-answer = 0
-for i in range(15):    
-    a1 = r.randint(2, 20)
-    a2 = r.randint(2, 20)
-    while a1 * a2 > max or a1 * a2 < min:
-        a1 = r.randint(2, 20)
-        a2 = r.randint(2, 20)
-    while answer != a1 * a2:
-        answer = int(input("What is " + str(a1) + " * " + str(a2) + "? "))
-        if answer != a1 * a2:
-            print("Wrong, try again!")
-            lives = lives - 1
-            min = min * 0.75
-            max = max * 0.7
-        else:
-            print("yay, correct")
-            min = min * 2
-            max = max * 1.75
-            if min > 350:
-                min = 350
-            break
-        if lives <= 0:
-            break
-    if lives <= 0:
-        print("GO AND SEE TEACHER I FORGOT NAME")
-        break
+# import random as r
+# min = 10
+# max = 50
+# lives = 3
+# answer = 0
+# for i in range(15):    
+#     a1 = r.randint(2, 20)
+#     a2 = r.randint(2, 20)
+#     while a1 * a2 > max or a1 * a2 < min:
+#         a1 = r.randint(2, 20)
+#         a2 = r.randint(2, 20)
+#     while answer != a1 * a2:
+#         answer = int(input("What is " + str(a1) + " * " + str(a2) + "? "))
+#         if answer != a1 * a2:
+#             print("Wrong, try again!")
+#             lives = lives - 1
+#             min = min * 0.75
+#             max = max * 0.7
+#         else:
+#             print("yay, correct")
+#             min = min * 2
+#             max = max * 1.75
+#             if min > 350:
+#                 min = 350
+#             break
+#         if lives <= 0:
+#             break
+#     if lives <= 0:
+#         print("GO AND SEE TEACHER I FORGOT NAME")
+#         break
