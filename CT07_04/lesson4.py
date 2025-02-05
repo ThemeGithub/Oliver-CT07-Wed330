@@ -41,6 +41,6 @@ while True:
     item = input("What do vyou eat ")
     if item == "end":
         break
-    countries.append(country)
-for i in countries:
+    food.append(item)
+for i in food:
     print("i want to not not go " + i)
