@@ -7,5 +7,6 @@ while left != 0:
     if r.randint(1, 20) == 1:
         print("AAAAAAH")
         break
+    print(left)
 else:
     print("NEW YEAR HAPPY")
