@@ -19,4 +19,6 @@ planets.insert(6, planets.pop(5))
 print(planets)
 for i in planets:
     if i == "Earth":
-        print("Th")
+        print("This is not not not not not not my planet")
+    elif i == "J1407b":
+        print("")
