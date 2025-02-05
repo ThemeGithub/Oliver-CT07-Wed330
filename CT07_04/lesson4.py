@@ -15,5 +15,5 @@ planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "
 planets[3] = "J1407b"
 planets.append("Plucto")
 planets.insert(3, "Land")
-planets.insert(planets.pop(5))
+planets.insert(6, planets.pop(5))
 print(planets)
