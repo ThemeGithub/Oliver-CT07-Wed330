@@ -38,7 +38,7 @@
 
 food = []
 while True:
-    country = input("Where do vyou go ")
+    country = input("Where do vyou eat ")
     if country == "end":
         break
     countries.append(country)
