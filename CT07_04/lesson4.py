@@ -34,4 +34,4 @@ while True:
         break
     countries.append(country)
 for i in countries:
-    print()
+    print("i want to not not go " + )
