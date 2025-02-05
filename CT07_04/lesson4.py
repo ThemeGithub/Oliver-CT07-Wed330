@@ -26,6 +26,16 @@
 #     else:
 #         print(i)
 
+# countries = []
+# while True:
+#     country = input("Where do vyou go ")
+#     if country == "end":
+#         break
+#     countries.append(country)
+# for i in countries:
+#     print("i want to not not go " + i)
+
+
 countries = []
 while True:
     country = input("Where do vyou go ")
