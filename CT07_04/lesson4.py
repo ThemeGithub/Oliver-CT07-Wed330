@@ -17,6 +17,6 @@ planets.append("Plucto")
 planets.insert(3, "Land")
 planets.insert(6, planets.pop(5))
 print(planets)
-c = 0
-for i in (0, len(planets)):
-    print
+for i in planets:
+    if i == "Earth":
+        print("Th")
