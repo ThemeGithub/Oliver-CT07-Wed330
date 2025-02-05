@@ -10,3 +10,5 @@
 #         break
 # else:
 #     print("NEW YEAR HAPPY")
+
+planets = []
