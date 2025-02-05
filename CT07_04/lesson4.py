@@ -43,7 +43,7 @@ while True:
     if item == "end":
         break
     food.append(item)
-    price.append(input("how much does it prcie"))
+    price.append(input("how much does it prcie "))
 for i in food:
     print("i want to not not add " + i)
 order = input("order what ")
