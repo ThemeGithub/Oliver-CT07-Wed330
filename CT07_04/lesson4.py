@@ -29,5 +29,6 @@
 countries = []
 end = False
 while not end:
-    countries.append(input("Where do vyou go"))
+    country = input("Where do vyou go")
+    countries.append(country)
     
