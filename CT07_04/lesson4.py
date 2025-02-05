@@ -16,3 +16,4 @@ planets[3] = "J1407b"
 planets.append("Plucto")
 planets.insert(3, "Land")
 print(planets)
+planets.insert
