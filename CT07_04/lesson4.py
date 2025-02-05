@@ -46,4 +46,6 @@ for i in food:
     print("i want to not not add " + i)
 order = input("order what ")
 if order in food:
-    
+    print("we have that")
+else:
+    print("we dont have")
