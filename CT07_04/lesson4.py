@@ -22,6 +22,6 @@ for i in planets:
     elif i == "J1407b":
         print("b7041J: COnquerer: me, yay")
     elif i == "Land":
-        print("made in china (me)")
+        print("Land: made in china (me)")
     else:
         print(i)
