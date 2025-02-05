@@ -11,4 +11,4 @@
 # else:
 #     print("NEW YEAR HAPPY")
 
-planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", ""]
+planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"]
