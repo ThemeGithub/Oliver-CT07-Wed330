@@ -71,4 +71,4 @@ while n2 == n1:
 print(n1)
 print("versus")
 print(n2)
-print(powers[p.index(n1)], powers[p.index(n2)])
+n1p = powers[p.index]
