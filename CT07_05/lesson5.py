@@ -65,8 +65,9 @@ powers = [
 
 import random as r
 n1 = r.choice(p)
-p.pop(p.index(n1))
 n2 = r.choice(p)
+while n2 != n1:
+    n2 = r.choice(p)
 print(n1)
 print("versus")
 print(n2)
