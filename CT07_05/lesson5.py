@@ -64,3 +64,4 @@ powers = [
 ]
 
 
+n1 = random.choice
