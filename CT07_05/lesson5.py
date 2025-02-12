@@ -5,14 +5,15 @@
 # for i in food:
 #     print(i)
 
-import random as r
+# import random as r
 
-nums = []
-for i in range(100):
-    num = int(str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)))
-    while num in nums:
-        num = int(str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)))
-    nums.append(num)
-for i in nums:
-    print(i)
-print(int(input("choose num ")) in nums)
+# nums = []
+# for i in range(100):
+#     num = int(str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)))
+#     while num in nums:
+#         num = int(str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)))
+#     nums.append(num)
+# for i in nums:
+#     print(i)
+# print(int(input("choose num ")) in nums)
+
