@@ -65,5 +65,5 @@ powers = [
 
 import random as r
 n1 = r.choice(pokemons)
-pokemons.pop(index(n1))
+pokemons.pop(pokemons.index(n1))
 n2 = r.choice(pokemons)
