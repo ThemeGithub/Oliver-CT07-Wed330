@@ -48,7 +48,7 @@
 #     print(namelist[heightlist.index(max(heightlist))])
 # print(namelist[heightlist.index(min(heightlist))])
 
-pokemons = [
+p = [
     "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
     "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
     "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
@@ -64,7 +64,7 @@ powers = [
 ]
 
 import random as r
-n1 = r.choice(pokemons)
+n1 = r.choice(p)
 pokemons.pop(pokemons.index(n1))
 n2 = r.choice(pokemons)
 print(n1)
