@@ -63,5 +63,5 @@ powers = [
     50, 125, 65, 110, 83
 ]
 
-
-n1 = random.choice
+import random as r
+n1 = r.choice()
