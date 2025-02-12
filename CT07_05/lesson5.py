@@ -20,4 +20,6 @@ import random as r
 scores = []
 for i in range(100):
     scores.append(r.randint(0, 100))
+    
 print(min(scores))
+print(max(scores))
