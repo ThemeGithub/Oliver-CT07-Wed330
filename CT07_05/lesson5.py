@@ -77,4 +77,4 @@ print("the winner is")
 if n1p >= r.randint(1, n1p + n2p):
     print(n1)
 else:
-    print(n2p)
+    print(n2)
