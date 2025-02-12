@@ -1,1 +1,1 @@
-food = ["air", "oxygen", "water", ""]
+food = ["air", "oxygen", "water", "lunch", "dinner"]
