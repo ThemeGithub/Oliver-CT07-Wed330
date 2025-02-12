@@ -26,7 +26,8 @@ print(max(scores))
 total = 0
 for i in range(100):
     total = total + scores[i]
-print(total / 100)
+average = total / 100
+print(average)
 squaretotal = 0
 for i in range(100):
     squaretotal = ()
