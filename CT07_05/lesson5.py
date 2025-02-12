@@ -48,33 +48,33 @@
 #     print(namelist[heightlist.index(max(heightlist))])
 # print(namelist[heightlist.index(min(heightlist))])
 
-p = [
-    "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
-    "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
-    "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
-    "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
-    "Electabuzz"
-]
+# p = [
+#     "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
+#     "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
+#     "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
+#     "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
+#     "Electabuzz"
+# ]
 
-powers = [
-    55, 84, 49, 48, 45,
-    45, 52, 55, 110, 110,
-    85, 65, 134, 130, 110,
-    50, 125, 65, 110, 83
-]
+# powers = [
+#     55, 84, 49, 48, 45,
+#     45, 52, 55, 110, 110,
+#     85, 65, 134, 130, 110,
+#     50, 125, 65, 110, 83
+# ]
 
-import random as r
-n1 = r.choice(p)
-n2 = r.choice(p)
-while n2 == n1:
-    n2 = r.choice(p)
-print(n1)
-print("versus")
-print(n2)
-n1p = powers[p.index(n1)]
-n2p = powers[p.index(n2)]
-print("the winner is")
-if n1p >= r.randint(1, n1p + n2p):
-    print(n1)
-else:
-    print(n2)
+# import random as r
+# n1 = r.choice(p)
+# n2 = r.choice(p)
+# while n2 == n1:
+#     n2 = r.choice(p)
+# print(n1)
+# print("versus")
+# print(n2)
+# n1p = powers[p.index(n1)]
+# n2p = powers[p.index(n2)]
+# print("the winner is")
+# if n1p >= r.randint(1, n1p + n2p):
+#     print(n1)
+# else:
+#     print(n2)
