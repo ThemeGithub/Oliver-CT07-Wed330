@@ -26,4 +26,4 @@ print(max(scores))
 total = 0
 for i in range(100):
     total = total + scores[i]
-print()
+print(total / 100)
