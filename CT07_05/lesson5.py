@@ -17,7 +17,6 @@
 #     print(i)
 # print(int(input("choose num ")) in nums)
 import random as r
-import numpy
 scores = []
 for i in range(100):
     scores.append(r.randint(0, 100))
