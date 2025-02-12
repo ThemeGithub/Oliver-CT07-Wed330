@@ -9,4 +9,4 @@ import random as r
 
 nums = []
 for i in range(100):
-    nums.append(random.randint)
+    nums.append(r.randint(1, 1000))
