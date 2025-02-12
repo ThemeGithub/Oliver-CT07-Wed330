@@ -12,6 +12,6 @@ for i in range(100):
     num = int(str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)))
     while num not in nums:
         num = int(str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)))
-        nums.append(num)
+    nums.append(num)
 for i in nums:
     print(i)
