@@ -31,3 +31,4 @@ print(average)
 squaretotal = 0
 for i in range(100):
     squaretotal = (average - scores[i]) ** 2
+avsquare = squaretotal / 100
