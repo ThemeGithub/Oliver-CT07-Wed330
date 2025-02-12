@@ -65,3 +65,4 @@ powers = [
 
 import random as r
 n1 = r.choice()
+n2 = r.choice()
