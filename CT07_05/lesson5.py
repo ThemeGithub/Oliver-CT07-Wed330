@@ -10,6 +10,7 @@ import random as r
 nums = []
 for i in range(100):
     num = int(str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)))
-    nums.append(int(str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9)) + str(r.randint(0, 9))))
+    
+    nums.append(num)
 for i in nums:
     print(i)
