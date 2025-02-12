@@ -16,4 +16,7 @@
 # for i in nums:
 #     print(i)
 # print(int(input("choose num ")) in nums)
-
+import random as r
+scores = []
+for i in range(100):
+    
