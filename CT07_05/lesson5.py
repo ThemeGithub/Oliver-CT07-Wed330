@@ -17,6 +17,7 @@
 #     print(i)
 # print(int(input("choose num ")) in nums)
 import random as r
+import math as m
 scores = []
 for i in range(100):
     scores.append(r.randint(0, 100))
@@ -32,4 +33,4 @@ squaretotal = 0
 for i in range(100):
     squaretotal = (average - scores[i]) ** 2
 avsquare = squaretotal / 100
-print()
+print(m.sqrt(avsquare))
