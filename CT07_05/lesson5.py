@@ -67,3 +67,4 @@ import random as r
 n1 = r.choice(pokemons)
 pokemons.pop(pokemons.index(n1))
 n2 = r.choice(pokemons)
+print(n1)
