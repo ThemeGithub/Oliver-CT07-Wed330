@@ -5,3 +5,6 @@
 # for i in food:
 #     print(i)
 
+import random
+
+nums = []
