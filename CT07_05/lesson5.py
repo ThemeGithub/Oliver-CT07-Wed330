@@ -5,8 +5,8 @@
 # for i in food:
 #     print(i)
 
-import random
+import random as r
 
 nums = []
 for i in range(100):
-    
+    nums.append(random.randint)
