@@ -15,3 +15,4 @@ for i in range(100):
     nums.append(num)
 for i in nums:
     print(i)
+if int(input("choose num")) 
