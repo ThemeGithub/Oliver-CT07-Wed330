@@ -8,3 +8,5 @@
 import random
 
 nums = []
+for i in range(100):
+    
