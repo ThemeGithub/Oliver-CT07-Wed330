@@ -32,6 +32,10 @@ students = [
     ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
 ]
+boys = []
+girls = []
 for i in students:
     name, gender = i
     print(name + ": " + gender)
+    if gender == "M":
+        
