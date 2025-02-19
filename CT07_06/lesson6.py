@@ -49,7 +49,7 @@ import time as t
 #     print(i)
 # print("Boys " +str(len(boys)))
 # print("Girls " +str(len(girls)))
-
+name = []
 people = []
 numbers = []
 while True:
