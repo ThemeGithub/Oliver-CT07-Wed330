@@ -21,3 +21,6 @@ contact3 = ["Sylvia", 87894032, "sylvia@gmail.com"]
 contacts.append(contact1)
 contacts.append(contact2)
 contacts.append(contact3)
+for i in contacts:
+    for j in i:
+        print(j)
