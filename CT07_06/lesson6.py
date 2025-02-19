@@ -66,6 +66,7 @@ while True:
     numbers.append(number)
     print("Your number is " + str(number))
     people.append([name, gender, number])
+winnerindex = r.randint()
 winner = r.choice(numbers)
 print("The winner is... ")
 t.sleep(1)
