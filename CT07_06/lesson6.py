@@ -37,7 +37,7 @@ girls = []
 for i in students:
     name, gender = i
     print(name + ": " + gender)
-    if gender == "M":
+    if gender == "F":
         boys.append(name)
     else:
         girls.append(name)
