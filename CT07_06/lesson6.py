@@ -7,4 +7,3 @@ for i in range(100):
         num = r.randint(1, 100)
     selected.append(num)
     print(num)
-    
