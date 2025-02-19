@@ -50,7 +50,7 @@ import time as t
 # print("Boys " +str(len(boys)))
 # print("Girls " +str(len(girls)))
 names = []
-ages = []
+genders = []
 people = []
 numbers = []
 while True:
