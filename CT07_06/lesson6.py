@@ -57,7 +57,7 @@ while True:
     name = input("What is your name? ")
     if name == "end":
         break
-
+    names.append(name)
     gender = input("What is your gender? ")
     number = r.randint(1, 999)
     while number in numbers:
