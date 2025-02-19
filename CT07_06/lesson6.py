@@ -34,4 +34,4 @@ students = [
 ]
 for i in students:
     name, gender = i
-    print(name + "")
+    print(name + ": " + gender)
