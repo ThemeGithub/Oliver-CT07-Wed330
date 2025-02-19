@@ -50,3 +50,4 @@ import time as t
 # print("Boys " +str(len(boys)))
 # print("Girls " +str(len(girls)))
 
+people = []
