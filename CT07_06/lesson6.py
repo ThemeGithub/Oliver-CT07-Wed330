@@ -38,4 +38,7 @@ for i in students:
     name, gender = i
     print(name + ": " + gender)
     if gender == "M":
-        
+        boys.append(name)
+    else:
+        girls.append(name)
+print
