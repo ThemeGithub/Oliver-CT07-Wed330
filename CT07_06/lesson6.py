@@ -54,11 +54,13 @@ people = []
 numbers = []
 while True:
     name = input("What is your name? ")
+    if name == "end":
+        break
     gender = input("What is your gender? ")
     number = r.randint(0, 1000)
     while number in numbers:
         number = r.randint(0, 1000)
     print("Your number is " + str(number))
     people.append([name, gender, number])
-winner 
+winner =
 print("The winner is... ")
