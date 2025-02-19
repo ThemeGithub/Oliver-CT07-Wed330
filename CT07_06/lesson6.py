@@ -58,5 +58,6 @@ while True:
     number = r.randint(0, 1000)
     while number in numbers:
         number = r.randint(0, 1000)
-    print("")
+    print("Your number is " + str(number))
     people.append([name, gender, number])
+    
