@@ -60,6 +60,7 @@ while True:
     number = r.randint(0, 1000)
     while number in numbers:
         number = r.randint(0, 1000)
+    numbers.append(number)
     print("Your number is " + str(number))
     people.append([name, gender, number])
 winner = random.choice(numbers)
