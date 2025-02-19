@@ -33,4 +33,5 @@ students = [
     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
 ]
 for i in students:
-    
+    name, gender = i
+    print(name + "")
