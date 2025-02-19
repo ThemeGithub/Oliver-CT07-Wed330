@@ -1,2 +1,3 @@
-print("Hello from lesson 6")
+import random as r
+import time as t
 
