@@ -51,3 +51,6 @@ import time as t
 # print("Girls " +str(len(girls)))
 
 people = []
+while True:
+    name = input("What is your name? ")
+    
