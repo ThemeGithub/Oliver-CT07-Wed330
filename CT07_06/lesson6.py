@@ -55,4 +55,5 @@ numbers = []
 while True:
     name = input("What is your name? ")
     gender = input("What is your gender? ")
-    number = 
+    number = r.randint(0, 1000)
+    
