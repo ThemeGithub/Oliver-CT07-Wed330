@@ -56,4 +56,5 @@ while True:
     name = input("What is your name? ")
     gender = input("What is your gender? ")
     number = r.randint(0, 1000)
-    
+    while number in numbers:
+        number = r.randint(0, 1000)
