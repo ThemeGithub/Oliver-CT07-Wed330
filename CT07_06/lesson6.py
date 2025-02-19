@@ -10,3 +10,6 @@ for i in range(100):
 print(min(selected))
 print(max(selected))
 print(sum(selected) / len(selected))
+ran = r.choice(selected)
+print(ran)
+print(selected.index(ran))
