@@ -73,4 +73,4 @@ for i in str(winner):
     print(i)
     t.sleep(1)
 print("The winner is " + str(winner))
-print(gender[winner.index(winner)] + name[numbers.index(winner)])
+print(gender[winner.index(genders)] + name[winner.index(numbers)])
