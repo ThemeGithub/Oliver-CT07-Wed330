@@ -51,7 +51,7 @@ import time as t
 # print("Girls " +str(len(girls)))
 
 people = []
+numbers = []
 while True:
     name = input("What is your name? ")
     gender = input("What is your gender? ")
-    
