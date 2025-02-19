@@ -41,6 +41,8 @@ for i in students:
         boys.append(name)
     else:
         girls.append(name)
+for i in range(boys):
+    print(i)
 print(boys)
 print(girls)
 print(len(boys))
