@@ -44,6 +44,7 @@ for i in students:
 print("Boys:")
 for i in range(boys):
     print(i)
+print("Girls:")
 for i in range(girls):
     print(i)
 print("Boys " +str(len(boys)))
