@@ -50,14 +50,14 @@ import time as t
 # print("Boys " +str(len(boys)))
 # print("Girls " +str(len(girls)))
 names = []
-age = []
+ages = []
 people = []
 numbers = []
 while True:
     name = input("What is your name? ")
-
     if name == "end":
         break
+
     gender = input("What is your gender? ")
     number = r.randint(1, 999)
     while number in numbers:
