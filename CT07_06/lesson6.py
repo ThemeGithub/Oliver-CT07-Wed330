@@ -43,7 +43,7 @@ for i in students:
         girls.append(name)
 for i in range(boys):
     print(i)
-print(boys)
-print(girls)
+for i in range(girls):
+    print(i)
 print(len(boys))
 print(len(girls))
