@@ -58,4 +58,4 @@ while True:
     number = r.randint(0, 1000)
     while number in numbers:
         number = r.randint(0, 1000)
-    
+    people.append([name, gender, number])
