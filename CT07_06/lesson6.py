@@ -53,4 +53,5 @@ import time as t
 people = []
 while True:
     name = input("What is your name? ")
+    gender = input("What is your gender? ")
     
