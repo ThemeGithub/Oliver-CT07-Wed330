@@ -49,11 +49,13 @@ import time as t
 #     print(i)
 # print("Boys " +str(len(boys)))
 # print("Girls " +str(len(girls)))
-name = []
+names = []
+age = []
 people = []
 numbers = []
 while True:
     name = input("What is your name? ")
+
     if name == "end":
         break
     gender = input("What is your gender? ")
