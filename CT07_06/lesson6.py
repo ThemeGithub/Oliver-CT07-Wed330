@@ -60,4 +60,3 @@ while True:
         number = r.randint(0, 1000)
     print("Your number is " + str(number))
     people.append([name, gender, number])
-    
