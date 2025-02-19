@@ -69,4 +69,4 @@ t.sleep(1)
 for i in str(winner):
     print(i)
     t.sleep(1)
-print("The winner is " + str)
+print("The winner is " + str(winner) + ":")
