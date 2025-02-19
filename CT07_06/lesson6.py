@@ -25,27 +25,28 @@ import time as t
 #     for j in i:
 #         print(j)
 
-students = [
-    ["Olivia", "F"], ["Noah", "M"], ["Emma", "F"],
-    ["Liam", "M"], ["Ava", "F"], ["Ethan", "M"],
-    ["Sophia", "F"], ["Lucas", "M"], ["Mia", "F"],
-    ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
-    ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
-]
-boys = []
-girls = []
-for i in students:
-    name, gender = i
-    print(name + ": " + gender)
-    if gender == "F":
-        boys.append(name)
-    else:
-        girls.append(name)
-print("Boys:")
-for i in boys:
-    print(i)
-print("Girls:")
-for i in girls:
-    print(i)
-print("Boys " +str(len(boys)))
-print("Girls " +str(len(girls)))
+# students = [
+#     ["Olivia", "F"], ["Noah", "M"], ["Emma", "F"],
+#     ["Liam", "M"], ["Ava", "F"], ["Ethan", "M"],
+#     ["Sophia", "F"], ["Lucas", "M"], ["Mia", "F"],
+#     ["Aiden", "M"], ["Isabella", "F"], ["Jackson", "M"],
+#     ["Amelia", "F"], ["Logan", "M"], ["Lily", "F"]
+# ]
+# boys = []
+# girls = []
+# for i in students:
+#     name, gender = i
+#     print(name + ": " + gender)
+#     if gender == "F":
+#         boys.append(name)
+#     else:
+#         girls.append(name)
+# print("Boys:")
+# for i in boys:
+#     print(i)
+# print("Girls:")
+# for i in girls:
+#     print(i)
+# print("Boys " +str(len(boys)))
+# print("Girls " +str(len(girls)))
+
