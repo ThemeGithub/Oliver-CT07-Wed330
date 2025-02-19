@@ -65,4 +65,6 @@ while True:
     people.append([name, gender, number])
 winner = random.choice(numbers)
 print("The winner is... ")
-for i in str(winner)
+t.sleep(1)
+for i in str(winner):
+    print(i)
