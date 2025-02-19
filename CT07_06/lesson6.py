@@ -70,3 +70,4 @@ for i in str(winner):
     print(i)
     t.sleep(1)
 print("The winner is " + str(winner))
+print()
