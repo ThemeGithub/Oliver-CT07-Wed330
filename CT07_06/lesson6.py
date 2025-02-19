@@ -41,4 +41,6 @@ for i in students:
         boys.append(name)
     else:
         girls.append(name)
-print
+print(boys)
+print(girls)
+print()
