@@ -10,4 +10,4 @@ for i in range(100):
 print(min(selected))
 print(max(selected))
 print(sum(selected) / len(selected))
-print(index(r.choice(selected)))
+print(selected.index(r.choice(selected)))
