@@ -6,3 +6,4 @@ for i in range(100):
     while num not in selected:
         num = r.randint(1, 100)
     selected.append(num)
+    print(num)
