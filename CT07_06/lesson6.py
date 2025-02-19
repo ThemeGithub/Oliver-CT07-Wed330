@@ -46,4 +46,4 @@ for i in range(boys):
 for i in range(girls):
     print(i)
 print("Boys " +str(len(boys)))
-print(len(girls))
+print("Boys " +str(len(boys)))
