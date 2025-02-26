@@ -25,3 +25,4 @@
 # print(fruits[:index])
 
 fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+print()
