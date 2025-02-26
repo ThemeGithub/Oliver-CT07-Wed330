@@ -9,7 +9,12 @@
 # for i in people:
 #     print("name: " + i[0] + " number: " + str(i[1]) + " cca: " + i[2])
 
-list1 = ["Apple", "Banana", "Cherry"]
-list2 = ["Durian", "Elderberry", "Figs"]
+# list1 = ["Apple", "Banana", "Cherry"]
+# list2 = ["Durian", "Elderberry", "Figs"]
 
-print(list1 + list2)
+# print(list1 + list2)
+
+
+list1 = [3.20, 2.65, 1.75]
+list2 = [6.15, 5.45, 4.20]
+
