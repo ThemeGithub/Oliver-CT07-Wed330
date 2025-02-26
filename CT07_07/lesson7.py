@@ -30,10 +30,11 @@
 
 list1 = ["Apple", "Banana", "Cherry", "Durian"]
 list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
-common = []
+unique = []
 for i in list1:
     if not i in list2:
         unique.append(i)
 for i in list2:
     if not i in list1:
         unique.append(i)
+print(unique)
