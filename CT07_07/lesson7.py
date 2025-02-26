@@ -28,13 +28,16 @@
 # print(fruits[:len(fruits) // 2])
 # print(fruits[len(fruits) // 2:])
 
-list1 = ["Apple", "Banana", "Cherry", "Durian"]
-list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
-unique = []
-for i in list1:
-    if not i in list2:
-        unique.append(i)
-for i in list2:
-    if not i in list1:
-        unique.append(i)
-print(unique)
+# list1 = ["Apple", "Banana", "Cherry", "Durian"]
+# list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
+# unique = []
+# for i in list1:
+#     if not i in list2:
+#         unique.append(i)
+# for i in list2:
+#     if not i in list1:
+#         unique.append(i)
+# print(unique)
+
+list1 = [1, 2, 3, 4]
+list2 = [5, 6, 7, 8]
