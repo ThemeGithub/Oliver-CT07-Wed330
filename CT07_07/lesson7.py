@@ -51,4 +51,4 @@ nested_list = [[1, 2], [3, 4], [5, 6]]
 list = []
 for i in nested_list:
     for j in i:
-        list.append
+        list.append(j)
