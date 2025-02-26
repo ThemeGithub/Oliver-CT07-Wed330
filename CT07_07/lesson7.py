@@ -32,5 +32,5 @@ list1 = ["Apple", "Banana", "Cherry", "Durian"]
 list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
 common = []
 for i in list1:
-    if i in list2:
-        common.append
+    if not i in list2:
+        common.append(i)
