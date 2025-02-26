@@ -35,5 +35,5 @@ for i in list1:
     if not i in list2:
         common.append(i)
 for i in list2:
-    if not i in list2:
+    if not i in list1:
         common.append(i)
