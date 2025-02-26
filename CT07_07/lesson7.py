@@ -12,3 +12,4 @@
 list1 = ["Apple", "Banana", "Cherry"]
 list2 = ["Durian", "Elderberry", "Figs"]
 
+print(list1 + list2)
