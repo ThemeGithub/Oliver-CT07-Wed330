@@ -5,4 +5,4 @@ people = [
 ]
 
 for i in people:
-    print(i[0] + " " + str(i[1]) + " " + i[2])
+    print("name: " + i[0] + " " + str(i[1]) + " " + i[2])
