@@ -5,4 +5,4 @@ people = [
 ]
 
 for i in people:
-    print(i[1] + str(i[2]) + i[3])
+    print(i[0] + str(i[1]) + i[2])
