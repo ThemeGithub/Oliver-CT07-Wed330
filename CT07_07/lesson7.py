@@ -56,11 +56,13 @@
 
 students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 size = 3
-temp = []
-groups = []
-for i in range(len(students)):
-    temp.append(i)
-    if (i + 1) % size == 0:
-        groups.append(temp)
-        temp = []
-print(groups)
+
+
+# temp = []
+# groups = []
+# for i in range(len(students)):
+#     temp.append(i)
+#     if (i + 1) % size == 0:
+#         groups.append(temp)
+#         temp = []
+# print(groups)
