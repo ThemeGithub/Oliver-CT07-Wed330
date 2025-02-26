@@ -20,6 +20,8 @@
 
 # print(sorted(list1 + list2))
 
+# fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+# index = 3
+# print(fruits[:index])
+
 fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
-index = 3
-print(fruits[:index])
