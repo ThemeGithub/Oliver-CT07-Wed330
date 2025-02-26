@@ -24,6 +24,10 @@
 # index = 3
 # print(fruits[:index])
 
-fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
-print(fruits[:len(fruits) // 2])
-print(fruits[len(fruits) // 2:])
+# fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+# print(fruits[:len(fruits) // 2])
+# print(fruits[len(fruits) // 2:])
+
+list1 = ["Apple", "Banana", "Cherry", "Durian"]
+list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
+common = []
