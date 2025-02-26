@@ -69,4 +69,4 @@ size = 3
 
 groups = []
 for i in range(0, len(students), size):
-    
+    groups.append(students[i:i + size])
