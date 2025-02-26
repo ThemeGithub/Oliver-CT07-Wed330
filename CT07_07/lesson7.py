@@ -53,3 +53,10 @@
 #     for j in i:
 #         list.append(j)
 # print(list)
+
+students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+size = 3
+temp = []
+groups = []
+for i in range(len(students)):
+    temp
