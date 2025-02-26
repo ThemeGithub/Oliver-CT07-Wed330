@@ -61,7 +61,7 @@ size = 3
 # temp = []
 # groups = []
 # for i in range(len(students)):
-#     temp.append(i)
+#     temp.append(students[i])
 #     if (i + 1) % size == 0:
 #         groups.append(temp)
 #         temp = []
