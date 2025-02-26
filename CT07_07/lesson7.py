@@ -15,7 +15,11 @@
 # print(list1 + list2)
 
 
-list1 = [3.20, 2.65, 1.75]
-list2 = [6.15, 5.45, 4.20]
+# list1 = [3.20, 2.65, 1.75]
+# list2 = [6.15, 5.45, 4.20]
 
-print(sorted(list1 + list2))
+# print(sorted(list1 + list2))
+
+fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+index = 3
+print(fruits[:index])
