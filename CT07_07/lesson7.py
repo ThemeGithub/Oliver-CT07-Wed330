@@ -26,3 +26,4 @@
 
 fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
 print(fruits[:len(fruits) // 2])
+print(fruits[len(fruits) // 2:])
