@@ -18,3 +18,4 @@
 list1 = [3.20, 2.65, 1.75]
 list2 = [6.15, 5.45, 4.20]
 
+print(sorted(list1 + list2))
