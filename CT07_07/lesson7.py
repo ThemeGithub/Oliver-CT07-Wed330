@@ -60,7 +60,7 @@ temp = []
 groups = []
 for i in range(len(students)):
     temp.append(i)
-    if (i + 1) % 2 == size:
+    if (i + 1) % size == 0:
         groups.append(temp)
         temp = []
 print(groups)
