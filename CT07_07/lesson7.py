@@ -1,5 +1,6 @@
 name = ["name", 12345678, "Co-"]
-student = 
+student = ["student", 87654321, "Curriculum"]
+
 
 
 people = [
