@@ -25,3 +25,4 @@
 # for i in items:
 #     # say what the user ordered
 #     print(str(items.index(i) + 1) + ". " + i)
+print(peanut[1])
