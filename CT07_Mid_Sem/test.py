@@ -23,4 +23,5 @@ while True:
         items.append(item)
 print("You have ordered the following:")
 for i in items:
+    # say what the user ordered
     print(str(items.index(i) + 1) + ". " + i)
