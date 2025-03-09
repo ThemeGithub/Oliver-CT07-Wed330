@@ -12,4 +12,5 @@
 
 items = []
 while True:
-    
+    item = input("What would you like to order? ")
+    if item == "end":
