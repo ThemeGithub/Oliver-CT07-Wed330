@@ -19,6 +19,7 @@ while True:
     if item == "end":
         break
     else:
+        # add the item
         items.append(item)
 print("You have ordered the following:")
 for i in items:
