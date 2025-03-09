@@ -15,4 +15,7 @@ while True:
     item = input("What would you like to order? ")
     if item == "end":
         break
-    
+    else:
+        items.append(item)
+for i in items:
+    print()
