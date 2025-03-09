@@ -13,8 +13,9 @@
 
 items = []
 while True:
-    
+    # ask the user what they want
     item = input("What would you like to order? ")
+    # end if they say end
     if item == "end":
         break
     else:
