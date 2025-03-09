@@ -19,4 +19,4 @@ while True:
         items.append(item)
 print("You have ordered the following:")
 for i in items:
-    print(str(i) + ". ")
+    print(str(i) + ". " + i)
