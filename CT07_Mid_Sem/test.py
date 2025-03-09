@@ -1,4 +1,4 @@
-import random as r
+import random
 print("Hero starts on his adventure with Health: 100")
 health = 100
 battles = 0
