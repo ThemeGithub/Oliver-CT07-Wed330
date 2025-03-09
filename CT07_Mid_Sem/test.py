@@ -17,5 +17,6 @@ while True:
         break
     else:
         items.append(item)
+print("You have ordered the following:")
 for i in items:
-    print()
+    print(str(i) + ". ")
