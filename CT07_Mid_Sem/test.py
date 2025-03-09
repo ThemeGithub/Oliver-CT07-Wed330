@@ -11,17 +11,17 @@
 # print("He fought " + str(battles) + " battles, and died.")
 
 
-items = []
-while True:
-    # ask the user what they want
-    item = input("What would you like to order? ")
-    # end if they say end
-    if item == "end":
-        break
-    else:
-        # add the item
-        items.append(item)
-print("You have ordered the following:")
-for i in items:
-    # say what the user ordered
-    print(str(items.index(i) + 1) + ". " + i)
+# items = []
+# while True:
+#     # ask the user what they want
+#     item = input("What would you like to order? ")
+#     # end if they say end
+#     if item == "end":
+#         break
+#     else:
+#         # add the item
+#         items.append(item)
+# print("You have ordered the following:")
+# for i in items:
+#     # say what the user ordered
+#     print(str(items.index(i) + 1) + ". " + i)
