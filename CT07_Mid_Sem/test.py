@@ -10,4 +10,6 @@
 #     print("After fighting monsters, his Health is now: " + str(health))
 # print("He fought " + str(battles) + " battles, and died.")
 
-
+items = []
+while True:
+    
