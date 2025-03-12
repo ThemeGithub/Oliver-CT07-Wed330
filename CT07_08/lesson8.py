@@ -27,5 +27,5 @@
 
 string = input("string: ")
 string = string.split(" ")
-string
+" ".join(string)
 print(string)
