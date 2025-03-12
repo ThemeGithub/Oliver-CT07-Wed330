@@ -25,7 +25,8 @@
 #         end = end + string[i].upper()
 # print(end)
 
-string = input("string: ")
-list = string.split(" ")
-" ".join(list)
-print(string)
+# string = input("string: ")
+# list = string.split(" ")
+# " ".join(list)
+# print(string)
+
