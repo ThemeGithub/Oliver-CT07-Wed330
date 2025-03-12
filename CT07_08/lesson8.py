@@ -9,4 +9,7 @@ while True:
     elif pw.isalpha:
         print("You must have numbers")
     elif not pw.isalnum:
-            print("On")
+        print("Only alphanumeric characters")
+    else:
+         break
+print("yay")
