@@ -16,4 +16,4 @@
 #         break
 # print("yay")
 
-str
+string = input("")
