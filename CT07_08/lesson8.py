@@ -23,3 +23,4 @@ for i in range(len(string)):
         end = end + i.lower()
     else:
         end = end + i.upper()
+print(end)
