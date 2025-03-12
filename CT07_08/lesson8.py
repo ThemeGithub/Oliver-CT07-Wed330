@@ -27,4 +27,5 @@
 
 string = input("string: ")
 string = string.split(" ")
+string
 print(string)
