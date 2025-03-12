@@ -4,4 +4,9 @@ while True:
         print("You must have lowercase")
     elif pw.islower:
         print("You must have uppercase")
-    elif pw.is
+    elif pw.isnumeric:
+        print("You must have alphabets")
+    elif pw.isalpha:
+        print("You must have numbers")
+    elif not pw.isalnum:
+            print("On")
