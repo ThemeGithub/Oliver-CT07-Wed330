@@ -25,3 +25,4 @@
 #         end = end + string[i].upper()
 # print(end)
 
+string = input("string: ")
