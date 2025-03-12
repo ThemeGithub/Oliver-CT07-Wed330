@@ -6,4 +6,5 @@ for i in [list1, list2, list3]:
     for j in i:
         if j not in list:
             list.append(j)
-print(list // 2)
+print(list[len(list) // 2:])
+print(list[len(list) // 2])
