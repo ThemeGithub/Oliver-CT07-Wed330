@@ -5,3 +5,4 @@ list = []
 list.append(list1)
 list.append(list2)
 list.append(list3)
+for
