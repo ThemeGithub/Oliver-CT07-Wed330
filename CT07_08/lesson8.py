@@ -26,6 +26,6 @@
 # print(end)
 
 string = input("string: ")
-string = string.split(" ")
-" ".join(string)
+list = string.split(" ")
+" ".join(list)
 print(string)
