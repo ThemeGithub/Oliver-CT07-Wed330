@@ -20,7 +20,7 @@ string = input("say ")
 end = ""
 for i in range(len(string)):
     if i % 2 == 0:
-        end = end + i.lower()
+        end = end + string[i].lower()
     else:
-        end = end + i.upper()
+        end = end + string[i].upper()
 print(end)
