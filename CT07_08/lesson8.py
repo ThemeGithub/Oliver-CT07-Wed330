@@ -26,3 +26,5 @@
 # print(end)
 
 string = input("string: ")
+string = string.split(" ")
+print(string)
