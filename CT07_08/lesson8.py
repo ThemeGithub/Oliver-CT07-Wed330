@@ -8,4 +8,4 @@ for i in [list1, list2, list3]:
             list.append(j)
 list.sort()
 print(list[:len(list) // 2])
-print(list[len(list) // 2])
+print(list[len(list) // 2:])
