@@ -16,4 +16,8 @@
 #         break
 # print("yay")
 
-string = input("")
+string = input("say ")
+end = ""
+for i in range(len(string)):
+    if i % 2 == 0:
+        end = end + i.lower()
