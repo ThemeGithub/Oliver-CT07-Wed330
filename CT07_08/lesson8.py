@@ -1,7 +1,7 @@
 while True:
     pw = input("Enter password: ")
     if len(pw) < 8:
-        print("")
+        print("It must be ")
     if pw.isupper():
         print("You must have lowercase")
     elif pw.islower():
