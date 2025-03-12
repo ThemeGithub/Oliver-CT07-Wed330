@@ -6,9 +6,9 @@ while True:
         print("You must have uppercase")
     elif pw.isnumeric():
         print("You must have alphabets")
-    elif pw.isalpha:
+    elif pw.isalpha():
         print("You must have numbers")
-    elif not pw.isalnum:
+    elif not pw.isalnum():
         print("Only alphanumeric characters")
     else:
          break
