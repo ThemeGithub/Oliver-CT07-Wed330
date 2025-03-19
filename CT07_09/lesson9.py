@@ -2,7 +2,7 @@ import turtle as t
 
 # Main turtle stuff
 
-window = t.screen()
+window = t.Screen()
 window.setup(width = 600, height = 400)
 
 
