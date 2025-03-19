@@ -4,8 +4,8 @@ import turtle as t
 
 window = t.Screen()
 window.setup(width = 600, height = 400)
+window.bgcolor((27, 198, 63))
 
 
 
-
-window.mainloop
+window.mainloop()
