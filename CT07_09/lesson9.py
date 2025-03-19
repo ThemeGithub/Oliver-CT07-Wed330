@@ -1,2 +1,1 @@
-print("Hello from lesson 9")
-
+import turtle as t
