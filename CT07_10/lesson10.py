@@ -1,2 +1,7 @@
 import turtle as t
-window = t.sc
+window = t.Screen()
+
+
+
+
+window.mainloop
