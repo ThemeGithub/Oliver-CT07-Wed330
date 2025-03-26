@@ -1,5 +1,5 @@
-import turtle as t
-window = t.Screen()
+import turtle
+window = turtle.Screen()
 window.setup(width = 600, height = 400)
 
 
