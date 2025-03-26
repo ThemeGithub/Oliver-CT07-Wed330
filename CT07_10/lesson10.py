@@ -7,7 +7,7 @@ t.shape("turtle")
 t.fillcolor("orange")
 while True:
     t.forward(100)
-    t.left()
+    t.left(90)
 
 
 
