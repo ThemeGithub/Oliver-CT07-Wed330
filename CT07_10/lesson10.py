@@ -17,5 +17,7 @@
 
 def alert():
     print("Motion Undetected")
+    
 alert()
-a
+alert()
+alert()
