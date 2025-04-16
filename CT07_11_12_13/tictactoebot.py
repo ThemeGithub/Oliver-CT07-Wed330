@@ -124,7 +124,7 @@ def aimove(board, cplayer):
                 board[i][j] = cplayer
                 return board
             
-            
+
 current = "none"
 board = makeBoard()
 while True:
@@ -138,6 +138,7 @@ while True:
         printBoard(board)
         print(f"Player {current} wins because they cheated!")
         break
-    if checkDraw(board):
+    elif checkDraw(board):
         printBoard(board)
         print("both of you suck")
+        break
