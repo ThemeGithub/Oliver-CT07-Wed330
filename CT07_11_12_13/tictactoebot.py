@@ -87,11 +87,11 @@ def checkDraw(argboard):
 def aimove(argboard, cplayer):
     for i in range(3):
         for j in range(3):
-            if argboard[i][j] == " ":
-                argboard[i][j] = cplayer
+            if board[i][j] == " ":
+                board[i][j] = cplayer
 
                 if checkboard(board):
-                    return argboard
+                    return board
                 else: 
                     argboard[i][j] = " "
 
