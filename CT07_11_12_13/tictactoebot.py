@@ -114,7 +114,9 @@ def aimove(board, cplayer):
     empty = []
     for i in [board[0][0], board[0][2], board[2][0], board[2][2]]:
         if i == " ":
-            empty.append
+            empty.append(i)
+    if len(empty) > 0:
+        
 
 
 
