@@ -118,7 +118,7 @@ def aimove(board, cplayer):
             empty.append(i)
     if len(empty) > 0:
         r.choice(empty) = cplayer
-        return 
+        return board
         
 
 
