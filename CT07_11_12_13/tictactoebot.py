@@ -116,6 +116,7 @@ def aimove(board, cplayer):
     for i, j in r.shuffle(corners):
         if board[i][j] == " ":
             board[i][j] = cplayer
+            return board
     
         
 
