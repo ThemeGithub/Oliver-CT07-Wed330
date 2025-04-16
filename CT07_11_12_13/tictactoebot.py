@@ -84,7 +84,7 @@ def checkDraw(argboard):
 # 4. If a corner is empty == take a corner.
 # 5. Else == take any available space.
 
-def aimove(argboard, cplayer):
+def aimove(board, cplayer):
     for i in range(3):
         for j in range(3):
             if board[i][j] == " ":
@@ -93,7 +93,7 @@ def aimove(argboard, cplayer):
                 if checkboard(board):
                     return board
                 else: 
-                    argboard[i][j] = " "
+                    board[i][j] = " "
 
 
 
