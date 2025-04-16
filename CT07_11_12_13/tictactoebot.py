@@ -89,7 +89,7 @@ while True:
     if current == "X":
         board = getmove(board, current)
     else:
-        
+        board = aimove(board, current)
 
 
     board = getmove(board, current)
