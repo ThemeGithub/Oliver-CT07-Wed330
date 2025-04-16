@@ -102,7 +102,10 @@ def aimove(board, cplayer):
         for j in range(3):
             if board[i][j] == " ":
                 board[i][j] = opponent
-                
+
+                if checkboard(board):
+                    
+
 
 
 
