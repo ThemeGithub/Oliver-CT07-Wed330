@@ -105,6 +105,9 @@ def aimove(board, cplayer):
 
                 if checkboard(board):
                     board[i][j] = current
+                else:
+                    board[i][j] = " "
+    
 
 
 
