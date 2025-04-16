@@ -92,7 +92,7 @@ def aimove(argboard, cplayer):
 
                 if checkboard(board):
                     return argboard
-                e
+                else: argboard[i][j] = " "
 
 
 
