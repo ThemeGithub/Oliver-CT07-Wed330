@@ -87,7 +87,7 @@ while True:
     current = getplayer(current)
 
     if current == "X":
-        
+        board = getmove(board)
 
 
     board = getmove(board, current)
