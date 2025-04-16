@@ -94,6 +94,14 @@ def aimove(board, cplayer):
                     return board
                 else: 
                     board[i][j] = " "
+    if cplayer == "X":
+        opponent = "O"
+    else:
+        cplayer = "X"
+    for i in range(3):
+        for j in range(3):
+            if board[i][j] == " ":
+                board[i][j] = opponent
 
 
 
