@@ -118,7 +118,10 @@ def aimove(board, cplayer):
         if board[i][j] == " ":
             board[i][j] = cplayer
             return board
-    
+    for i in range(3):
+        for j in range(3):
+            if board[i][j] == " ":
+                board[i][j] = c
     
         
 
