@@ -127,9 +127,6 @@ while True:
         board = getmove(board, current)
     else:
         board = aimove(board, current)
-
-
-    board = getmove(board, current)
     if checkboard(board):
         printBoard(board)
         print(f"Player {current} wins because they cheated!")
