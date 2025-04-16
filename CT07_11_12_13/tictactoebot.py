@@ -107,7 +107,8 @@ def aimove(board, cplayer):
                     board[i][j] = current
                 else:
                     board[i][j] = " "
-    if board[1][1] == " "
+    if board[1][1] == " ":
+        board[1][1] = cplayer
 
 
 
