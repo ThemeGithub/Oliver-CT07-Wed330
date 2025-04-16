@@ -122,7 +122,7 @@ current = "none"
 board = makeBoard()
 while True:
     printBoard(board)
-    getplayer(current)
+    current = getplayer(current)
     if current == "X":
         board = getmove(board, current)
     else:
