@@ -121,12 +121,10 @@ def aimove(board, cplayer):
     for i in range(3):
         for j in range(3):
             if board[i][j] == " ":
-                board[i][j] = c
-    
-        
-
-
-
+                board[i][j] = cplayer
+                return board
+            
+            
 current = "none"
 board = makeBoard()
 while True:
