@@ -115,7 +115,7 @@ def aimove(board, cplayer):
     empty = []
     for i, j in r.shuffle([[0, 0], [0, 2], [2, 0], [2, 2]]):
         if board[i][j] == " ":
-            board[i[0]][i[1]] = cplayer
+            board[i][j] = cplayer
     
         
 
