@@ -116,7 +116,7 @@ def get_aimove(board, currplayer):
                 else:
                     print(f" 111 Move i:{i} j:{j}")
                     board[i][j] == " "
-
+    print("test")
     # 2. Check if player can win in next move == block it.
     opponent = "X" # which means you
     for i in range(3):
