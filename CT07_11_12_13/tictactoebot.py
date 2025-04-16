@@ -1,3 +1,4 @@
+import random as r
 def makeBoard():
     tempboard = []
     for row in range(3):
@@ -116,6 +117,7 @@ def aimove(board, cplayer):
         if i == " ":
             empty.append(i)
     if len(empty) > 0:
+        r.choice(empty)
         
 
 
