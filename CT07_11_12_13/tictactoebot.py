@@ -104,7 +104,7 @@ def aimove(board, cplayer):
                 board[i][j] = opponent
 
                 if checkboard(board):
-                    
+                    board[i][j] = current
 
 
 
