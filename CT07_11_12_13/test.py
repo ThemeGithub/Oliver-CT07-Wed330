@@ -123,6 +123,7 @@ def get_aimove(board, currplayer):
         for j in range(3):
             if board[i][j] == " ":
                 board[i][j] = opponent # simulate player maving a move
+                print(board)
 
                 
                 if checkwin(board):
