@@ -36,10 +36,10 @@ while running:
     if keys[pygame.K_DOWN]:
         y2 += speed
 
-    if i < 0:
-        i = 0
-    if i > height - paddleHeight:
-        i = height - paddleHeight
+    if y1 < 0:
+        y1 = 0
+    if y1 > height - paddleHeight:
+        y1 = height - paddleHeight
 
 
 
