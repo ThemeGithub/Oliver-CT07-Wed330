@@ -42,6 +42,8 @@ while running:
         if i > height - paddleHeight:
             i = height - paddleHeight
 
+    
+
     screen.fill((0, 0, 0))
 
     pygame.draw.rect(screen, (0, 100, 0), (10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
