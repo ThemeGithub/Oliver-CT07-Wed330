@@ -30,6 +30,9 @@ while running:
         y1s -= 1
 
     y += y1s
+    if y < 0:
+        y = 0
+        y1s 
 
     pygame.display.flip()
 pygame.quit()
