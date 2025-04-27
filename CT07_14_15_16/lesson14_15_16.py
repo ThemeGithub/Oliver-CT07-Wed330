@@ -34,7 +34,8 @@ while running:
         y = 0
         y1s = 0
     if y > height - paddleHeight:
-        y = 
+        y = height - paddleHeight
+        y1s = 0
 
     pygame.display.flip()
 pygame.quit()
