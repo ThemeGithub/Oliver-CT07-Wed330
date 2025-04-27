@@ -23,7 +23,7 @@ while running:
     keys = pygame.key.get_pressed()
 
     if keys[pygame.K_w]:
-        y1s -= speed
+        y1 -= speed
     if keys[pygame.K_s]:
         y1 += speed
 
@@ -34,7 +34,6 @@ while running:
         y1s = 0
     if y1 > height - paddleHeight:
         y1 = height - paddleHeight
-        y1s = 0
     y1s = y1s * 0.9
 
     screen.fill((0, 0, 0))
