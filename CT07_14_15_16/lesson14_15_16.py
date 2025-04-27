@@ -9,8 +9,6 @@ pygame.display.set_caption("Pong Game")
 speed = 1.8
 y1 = height // 2
 y2 = height // 2
-y1s = 0
-y2s = 0
 paddleHeight = 100
 paddleWidth = 20
 
