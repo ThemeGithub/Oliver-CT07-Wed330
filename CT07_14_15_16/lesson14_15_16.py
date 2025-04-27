@@ -42,7 +42,8 @@ while running:
         if i > height - paddleHeight:
             i = height - paddleHeight
 
-    
+    ballx += dx
+    bally += dy
 
     screen.fill((0, 0, 0))
 
