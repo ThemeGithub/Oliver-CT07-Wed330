@@ -26,9 +26,9 @@ while running:
         y1 += speed
 
     if keys[pygame.K_UP]:
-        y1 -= speed
+        y2 -= speed
     if keys[pygame.K_DOWN]:
-        y1 += speed
+        y2 += speed
 
     for i in [y1, y2]:
         if i < 0:
