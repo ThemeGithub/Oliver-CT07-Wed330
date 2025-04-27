@@ -42,6 +42,14 @@ while running:
         if i > height - paddleHeight:
             i = height - paddleHeight
 
+
+
+    screen.fill((0, 0, 0))
+
+    paddle1 = pygame.draw.rect(screen, (0, 100, 0), (10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
+    paddle2 = pygame.draw.rect(screen, (100, 0, 0), (width - paddleWidth - 10, y2 - paddleHeight / 2, paddleWidth, paddleHeight))
+    pygame.draw.circle(screen, (0, 255, 255), (ballx, bally), ballsize)
+
     ballx += dx
     bally += dy
     
@@ -52,12 +60,6 @@ while running:
         dx = dx * -1
     if ballx < paddle2.left + ballsize and bally > paddle2.top and bally < paddle2.bottom:
         dx = dx * -1
-
-    screen.fill((0, 0, 0))
-
-    paddle1 = pygame.draw.rect(screen, (0, 100, 0), (10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
-    paddle2 = pygame.draw.rect(screen, (100, 0, 0), (width - paddleWidth - 10, y2 - paddleHeight / 2, paddleWidth, paddleHeight))
-    pygame.draw.circle(screen, (0, 255, 255), (ballx, bally), ballsize)
 
     pygame.display.flip()
 pygame.quit()
