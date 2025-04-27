@@ -6,11 +6,11 @@ height = 600
 screen = pygame.display.set_mode((width, height))
 screen = pygame.display.set_caption("Pong Game")
 
-y1 = 0
+y1 = 300
 
 running = True
 while running:
-
+    
 
 
 
