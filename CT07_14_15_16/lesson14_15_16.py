@@ -42,9 +42,9 @@ while running:
         y1 = height - paddleHeight
 
     if y2 < 0:
-        y1 = 0
-    if y1 > height - paddleHeight:
-        y1 = height - paddleHeight
+        y2 = 0
+    if y2 > height - paddleHeight:
+        y2 = height - paddleHeight
 
 
 
