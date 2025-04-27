@@ -15,8 +15,8 @@ paddleWidth = 20
 ballsize = 20
 ballx = width // 2
 bally = height // 2
-dx = 2
-dy = 2
+dx = -1
+dy = 1
 
 running = True
 while running:
