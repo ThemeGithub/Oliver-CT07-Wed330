@@ -34,14 +34,6 @@ while running:
     pygame.draw.rect(screen, (0, 100, 0), (10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
     pygame.draw.rect(screen, (100, 0, 0), (width - paddleWidth - 10, y2 - paddleHeight / 2, paddleWidth, paddleHeight))
     
-    keys = pygame.key.get_pressed()
-
-    if keys[pygame.K_w]:
-        y1s -= speed
-    if keys[pygame.K_s]:
-        y1s += speed
-
-
 
     pygame.display.flip()
 pygame.quit()
