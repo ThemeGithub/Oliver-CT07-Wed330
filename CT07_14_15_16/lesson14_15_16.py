@@ -27,14 +27,14 @@ while running:
 
     if keys[pygame.K_UP]:
         y1 -= speed
-    if keys[pygame.K_s]:
+    if keys[pygame.K_DOWN]:
         y1 += speed
 
-
-    if y1 < 0:
-        y1 = 0
-    if y1 > height - paddleHeight:
-        y1 = height - paddleHeight
+    for i in [y1, y2]:
+        if i < 0:
+            i = 0
+        if i > height - paddleHeight:
+            i = height - paddleHeight
 
     screen.fill((0, 0, 0))
 
