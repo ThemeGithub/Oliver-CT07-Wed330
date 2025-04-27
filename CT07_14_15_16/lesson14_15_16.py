@@ -29,12 +29,12 @@ while running:
     if keys[pygame.K_s]:
         y1s -= 1
 
-    y += y1s
+    y1 += y1s
     if y1 < 0:
         y1 = 0
         y1s = 0
-    if y > height - paddleHeight:
-        y = height - paddleHeight
+    if y1 > height - paddleHeight:
+        y1 = height - paddleHeight
         y1s = 0
 
     pygame.display.flip()
