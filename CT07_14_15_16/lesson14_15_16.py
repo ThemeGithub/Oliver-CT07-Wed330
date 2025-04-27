@@ -49,7 +49,7 @@ while running:
 
     pygame.draw.rect(screen, (0, 100, 0), (10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
     pygame.draw.rect(screen, (100, 0, 0), (width - paddleWidth - 10, y2 - paddleHeight / 2, paddleWidth, paddleHeight))
-    pygame.draw.circle(screen, (0, 255, 255), (ballx, bally), ballsize,)
+    pygame.draw.circle(screen, (0, 255, 255), (ballx, bally), ballsize)
 
     pygame.display.flip()
 pygame.quit()
