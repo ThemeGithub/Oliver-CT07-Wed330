@@ -49,7 +49,7 @@ while running:
         dy = dy * -1
     
     if ballx < paddle1.right + ballsize and bally > paddle1.top and bally < paddle1.bottom:
-        d
+        dx = dx * -1
 
     screen.fill((0, 0, 0))
 
