@@ -8,6 +8,8 @@ pygame.display.set_caption("Pong Game")
 
 y1 = height // 2
 y2 = height // 2
+y1s = 0
+y2s = 0
 paddleHeight = 100
 paddleWidth = 20
 
@@ -21,6 +23,9 @@ while running:
     pygame.draw.rect(screen, (100, 0, 0), (width - paddleWidth - 10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
     
     keys = pygame.key.get_pressed()
+
+    if keys[pygame.K_w]:
+
 
 
     pygame.display.flip()
