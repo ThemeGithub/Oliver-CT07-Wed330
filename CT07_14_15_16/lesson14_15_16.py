@@ -41,6 +41,11 @@ while running:
     if y1 > height - paddleHeight:
         y1 = height - paddleHeight
 
+    if y2 < 0:
+        y1 = 0
+    if y1 > height - paddleHeight:
+        y1 = height - paddleHeight
+
 
 
     screen.fill((0, 0, 0))
