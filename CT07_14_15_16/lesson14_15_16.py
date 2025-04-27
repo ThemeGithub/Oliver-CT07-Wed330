@@ -25,9 +25,9 @@ while running:
     keys = pygame.key.get_pressed()
 
     if keys[pygame.K_w]:
-        y1s += 1
+        y1s -= 0.5
     if keys[pygame.K_s]:
-        y1s -= 1
+        y1s += 0.5
 
     y1 += y1s
     if y1 < 0:
