@@ -25,6 +25,11 @@ while running:
     if keys[pygame.K_s]:
         y1 += speed
 
+    if keys[pygame.K_UP]:
+        y1 -= speed
+    if keys[pygame.K_s]:
+        y1 += speed
+
 
     if y1 < 0:
         y1 = 0
