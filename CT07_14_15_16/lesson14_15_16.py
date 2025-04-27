@@ -45,9 +45,7 @@ while running:
     ballx += dx
     bally += dy
     
-    if bally - ballsize // 2 < 0:
-        dy = dy * -1
-    if bally + ballsize // 2 > width:
+    if bally < 0 or bally > width:
         dy = dy * -1
 
     screen.fill((0, 0, 0))
