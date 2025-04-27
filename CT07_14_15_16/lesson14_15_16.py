@@ -29,7 +29,7 @@ while running:
     if keys[pygame.K_s]:
         y1s -= 1
 
-    
+    y += y1s
 
     pygame.display.flip()
 pygame.quit()
