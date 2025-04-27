@@ -16,7 +16,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
     
-    pygame.draw.rect(screen, "green", (10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
+    pygame.draw.rect(screen, (0, 100, 0), (10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
 
 
 
