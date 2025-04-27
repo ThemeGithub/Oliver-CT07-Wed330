@@ -19,6 +19,17 @@ while running:
         if event.type == pygame.QUIT:
             running = False
     
+    y1 += y1s
+    if y1 < 0:
+        y1 = 0
+        y1s = 0
+    if y1 > height - paddleHeight:
+        y1 = height - paddleHeight
+        y1s = 0
+    y1s = y1s * 0.9
+
+
+
     pygame.draw.rect(screen, (0, 100, 0), (10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
     pygame.draw.rect(screen, (100, 0, 0), (width - paddleWidth - 10, y2 - paddleHeight / 2, paddleWidth, paddleHeight))
     
