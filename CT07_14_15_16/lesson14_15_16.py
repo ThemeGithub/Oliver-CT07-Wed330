@@ -20,6 +20,14 @@ while running:
         if event.type == pygame.QUIT:
             running = False
     
+    keys = pygame.key.get_pressed()
+
+    if keys[pygame.K_w]:
+        y1s -= speed
+    if keys[pygame.K_s]:
+        y1s += speed
+
+
     y1 += y1s
     if y1 < 0:
         y1 = 0
