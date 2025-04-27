@@ -18,7 +18,7 @@ while running:
             running = False
     
     pygame.draw.rect(screen, (0, 100, 0), (10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
-    pygame.draw.rect(screen, (0, 100, 0), (width - paddleWidth - 10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
+    pygame.draw.rect(screen, (100, 0, 0), (width - paddleWidth - 10, y1 - paddleHeight / 2, paddleWidth, paddleHeight))
 
 
 
