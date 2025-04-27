@@ -25,7 +25,7 @@ while running:
     keys = pygame.key.get_pressed()
 
     if keys[pygame.K_w]:
-        y1s += 0.3
+        y1s += 1
     if keys[pygame.K_s]:
         y1s -= 1
 
@@ -37,5 +37,6 @@ while running:
         y1 = height - paddleHeight
         y1s = 0
 
+    y1s = y1s * 0.9
     pygame.display.flip()
 pygame.quit()
