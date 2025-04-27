@@ -28,13 +28,10 @@ while running:
         y1 += speed
 
 
-    y1 += y1s
     if y1 < 0:
         y1 = 0
-        y1s = 0
     if y1 > height - paddleHeight:
         y1 = height - paddleHeight
-    y1s = y1s * 0.9
 
     screen.fill((0, 0, 0))
 
