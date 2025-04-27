@@ -10,7 +10,7 @@ y1 = 300
 
 running = True
 while running:
-    
+    pygame.draw.rect()
 
 
 
