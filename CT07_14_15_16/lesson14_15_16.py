@@ -9,3 +9,4 @@ screen = pygame.display.set_caption("Pong Game")
 running = True
 while running:
     pass
+pygame.quit()
