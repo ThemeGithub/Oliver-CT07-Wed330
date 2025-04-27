@@ -47,6 +47,9 @@ while running:
     
     if bally < 0 or bally > width:
         dy = dy * -1
+    
+    if ballx < paddle1.right + ballsize and bally > paddle1.top and bally < paddle1.bottom:
+        d
 
     screen.fill((0, 0, 0))
 
