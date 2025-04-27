@@ -6,7 +6,7 @@ height = 600
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Pong Game")
 
-speed = 1.5
+speed = 2
 y1 = height // 2
 y2 = height // 2
 y1s = 0
