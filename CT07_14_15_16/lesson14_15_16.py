@@ -50,7 +50,7 @@ while running:
     
     if ballx < paddle1.right + ballsize and bally > paddle1.top and bally < paddle1.bottom:
         dx = dx * -1
-    if ballx < paddle2.left + ballsize and bally > paddle2.top and bally < paddle1.bottom:
+    if ballx < paddle2.left + ballsize and bally > paddle2.top and bally < paddle2.bottom:
         dx = dx * -1
 
     screen.fill((0, 0, 0))
