@@ -11,7 +11,7 @@ paddleHeight = 50
 
 running = True
 while running:
-    pygame.draw.rect()
+    pygame.draw.rect(screen, green, )
 
 
 
