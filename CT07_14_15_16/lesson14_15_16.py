@@ -12,6 +12,8 @@ y2 = height // 2
 paddleHeight = 100
 paddleWidth = 20
 
+ballx = 
+
 running = True
 while running:
     for event in pygame.event.get():
