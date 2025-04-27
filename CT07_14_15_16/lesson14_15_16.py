@@ -12,7 +12,7 @@ paddleWidth = 20
 
 running = True
 while running:
-    pygame.draw.rect(screen, green, )
+    pygame.draw.rect(screen, "green", ())
 
 
 
