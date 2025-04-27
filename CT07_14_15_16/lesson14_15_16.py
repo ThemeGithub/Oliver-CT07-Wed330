@@ -7,6 +7,7 @@ screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Pong Game")
 
 y1 = height // 2
+y2 = height // 2
 paddleHeight = 100
 paddleWidth = 20
 
