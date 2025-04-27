@@ -25,7 +25,7 @@ while running:
     if keys[pygame.K_w]:
         y1s -= speed
     if keys[pygame.K_s]:
-        y1s += speed
+        y1 += speed
 
 
     y1 += y1s
