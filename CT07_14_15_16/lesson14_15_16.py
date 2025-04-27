@@ -1,5 +1,5 @@
-import pygame as p
-p.init()
+import pygame
+pygame.init()
 width = 800
 height = 600
-screen = p.display.setMode()
+screen = pygame.display.setMode()
