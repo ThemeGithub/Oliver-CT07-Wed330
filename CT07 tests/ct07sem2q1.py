@@ -25,7 +25,7 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
                1238, 1458, 7803, 900, 13674, 14539, 13241, 
                10886, 7541, 8743, 1482, 11523, 977, 12181, 
                8903, 1008, 1530]
-print(f"{daily_sales.index(max(daily_sales))}")
+print(f"{daily_sales.index(max(daily_sales)) + 1} ")
 # Write your code here.
 
 
