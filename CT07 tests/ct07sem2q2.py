@@ -14,7 +14,7 @@
 
 ##### Task 1: COMPLETE THIS FUNCTION TO CHECK ODD/ EVEN
 def is_even(num):
-    return (num // 2 == 0)
+    return ((num // 2) == 0)
 
 # Example output:
 list1 = [2944, 5490, 2357, 2619, 1177, 451, 8299, 2533, 4682, 6040,
