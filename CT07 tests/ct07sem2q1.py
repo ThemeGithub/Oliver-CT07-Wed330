@@ -27,7 +27,7 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
                8903, 1008, 1530]
 print(f"{daily_sales.index(max(daily_sales)) + 1} August has the highest sales of ${max(daily_sales)}")
 print(f"{daily_sales.index(min(daily_sales)) + 1} August has the lowest sales of ${min(daily_sales)}")
-print(f"Average daily sales for August is {sum(daily_sales) / len(daily_sales)}")
+print(f"Average daily sales for August is {round(sum(daily_sales) / len(daily_sales), 2)}")
 # Write your code here.
 
 
