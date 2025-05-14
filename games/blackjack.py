@@ -4,7 +4,7 @@ Create the game of Black Jack
 import random
 import time
 
-suits = ["♣", "♦","❤","♠"]
+suits = ["♣", "♦","♡","♠"]
 ranks = ['2','3','4','5','6','7','8','9','JACK','QUEEN','KING','ACE']
 
 # Step 1: Create the deck of cards
