@@ -32,7 +32,7 @@ for i in range(10):
 
 
 def showhand(hand, type):
-    sum = pooi(hand)
+    sum = points(hand)
     if type == "player":
         print("#" * 10)
         print("PLAYER HAND")
