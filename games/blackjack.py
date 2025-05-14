@@ -80,3 +80,4 @@ while True:
     showhand(player, "player")
     showhand(banker, 'banker')
 
+bankermove(banker)
