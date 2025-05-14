@@ -37,6 +37,8 @@ def showhand(hand, type):
         print("#" * 10)
         if type == 'player':
             print("PLAYER HAND")
+        else:
+            print('BANKER HAND')
         for card in hand:
             print(f'{card[1]} {card[0]}')
         print(f'Sum: {sum}')
