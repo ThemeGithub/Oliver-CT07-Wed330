@@ -37,6 +37,7 @@ def showhand(hand, type):
         print("PLAYER HAND")
         for card in hand:
             print(f'{card[1]} {card[0]}')
+        print('#' * 15)
     elif type == "banker":
         print('$' * 15)
         print("BANKER HAND")
