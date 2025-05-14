@@ -32,5 +32,3 @@ for i in range(10):
 player = [deck.pop(), deck.pop()]
 banker = [deck.pop(), deck.pop()]
 
-
-print(player)
