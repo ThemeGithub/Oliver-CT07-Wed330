@@ -51,3 +51,4 @@ player = [deck.pop(), deck.pop()]
 banker = [deck.pop(), deck.pop()]
 
 showhand(player, "player")
+showhand(banker, "banker")
