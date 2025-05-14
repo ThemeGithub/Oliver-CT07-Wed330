@@ -95,6 +95,7 @@ def bankermove(hand):
                 end = 1
         if diff > 6:
             total = points(deck)
+            left = 21 - sum
             
         
 
