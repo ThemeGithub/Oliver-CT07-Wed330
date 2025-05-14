@@ -38,6 +38,7 @@ def showhand(hand, type):
         for card in hand:
             print(f'{card[1]} {card[0]}')
     elif type == "banker":
+        print('$' * 15)
         print("BANKER HAND")
         if diff >= 8:
             for i in range(2):
