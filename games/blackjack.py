@@ -33,6 +33,7 @@ for i in range(10):
 
 def showhand(hand, type):
     if type == "player":
+        print("#" * 15)
         print("PLAYER HAND")
         for card in hand:
             print(f'{card[1]} {card[0]}')
