@@ -60,8 +60,8 @@ def points(hand):
         if card == 'ACE':
             aces += 1
     for i in range(aces):
-        if score > 21:
-            score 
+        if sum > 21:
+            sum -= 10
     return sum
 
 player = [deck.pop(), deck.pop()]
