@@ -99,10 +99,11 @@ def bankermove(hand):
             for card in deck:
                 if values[card[0]] > left:
                     fail += 1
-            if fail / len(deck) > 0.5 + (diff - 6) * 0.05:
-                banker.append(deck.pop())
-            else:
-                end = 1
+            if fail > 0:
+                if fail / len(deck) > 0.5 + (diff - 6) * 0.05:
+                    banker.append(deck.pop())
+                else:
+                    end = 1
         showhand(hand, "banker")
     return banker
 
