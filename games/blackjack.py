@@ -103,7 +103,7 @@ def bankermove(hand):
                 if values[card[0]] > left:
                     fail += 1
             if fail > 0:
-                if fail / len(deck) < 0.6:
+                if fail / len(deck) < 0.2 + diff * 0.05:
                     banker.append(deck.pop())
                 else:
                     end = 1
