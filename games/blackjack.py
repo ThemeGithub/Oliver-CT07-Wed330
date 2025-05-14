@@ -31,7 +31,7 @@ for i in range(10):
 
 
 def showhand(hand, type):
-    if type == player:
+    if type == p:
         for card in hand:
             print(card[0] + str(card[1]))
 
@@ -40,4 +40,4 @@ def showhand(hand, type):
 player = [deck.pop(), deck.pop()]
 banker = [deck.pop(), deck.pop()]
 
-showhand()
+showhand(player, "player")
