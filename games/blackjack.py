@@ -133,7 +133,10 @@ while True:
         break
     showhand(banker, 'banker')
     showhand(player, "player")
+
+    
 showhand(banker, 'end')
+time.sleep(1.2)
 
 bankervalue = points(bankermove(banker))
 showhand(player, 'player')
