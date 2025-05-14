@@ -71,4 +71,5 @@ showhand(player, "player")
 showhand(banker, "banker")
 
 while True:
-    print("1:")
+    print("1: Hit")
+    print("2: Check")
