@@ -79,3 +79,4 @@ while True:
         break
     showhand(player, "player")
     showhand(banker, 'banker')
+
