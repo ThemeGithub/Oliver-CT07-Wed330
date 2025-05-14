@@ -99,7 +99,8 @@ def bankermove(hand):
             for card in deck:
                 if values[card[0]] > left:
                     fail += 1
-            
+            if fail / len(deck) > 0.5 + (diff - 6) * 0.05:
+                
 
             
         
