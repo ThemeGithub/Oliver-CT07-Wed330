@@ -134,7 +134,7 @@ while True:
     showhand(banker, 'banker')
     showhand(player, "player")
 
-    
+
 showhand(banker, 'end')
 time.sleep(1.2)
 
@@ -149,7 +149,7 @@ if bankervalue > playervalue:
             print("banker too addicted and lost cuz he go over")
         else:
             print('you suck less than banker')
-            print('you still suck tho')
+            print('you still very bad tho')
 elif bankervalue < playervalue:
     if playervalue <= 21:
         print("cheater")
