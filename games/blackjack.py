@@ -57,6 +57,11 @@ def points(hand):
     for card in hand:
         cardpoint = values[card[0]]
         sum += cardpoint
+        if card == 'ACE':
+            aces += 1
+    for i in range(aces):
+        if score > 21:
+            score 
     return sum
 
 player = [deck.pop(), deck.pop()]
