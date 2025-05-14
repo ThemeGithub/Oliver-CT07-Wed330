@@ -104,6 +104,8 @@ def bankermove(hand):
                     banker.append(deck.pop())
                 else:
                     end = 1
+            else:
+                banker.append(deck.pop())
         showhand(hand, "banker")
     return banker
 
