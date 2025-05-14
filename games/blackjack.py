@@ -29,6 +29,7 @@ for suit in suits:
 for i in range(10):
     random.shuffle(deck) # shuffle this 10 times
 
+
 def showhand(hand, type):
     if type == player:
         for card in hand:
