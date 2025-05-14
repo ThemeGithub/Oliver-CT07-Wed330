@@ -137,4 +137,16 @@ if bankervalue > playervalue:
             print('you suck less than banker')
             print('you still suck tho')
 elif bankervalue < playervalue:
-    if playervalue <= 
+    if playervalue <= 21:
+        print("cheater")
+    else:
+        if bankervalue <= 21:
+            print('IMAGINE GOING OVER LOLOLOLO')
+        else:
+            print('uhh')
+            print('u still suck more tho')
+else:
+    if bankervalue <= 21:
+        print('its a tie')
+    else:
+        print()
