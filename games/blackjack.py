@@ -33,4 +33,4 @@ player = [deck.pop, deck.pop]
 banker = [deck.pop, deck.pop]
 
 
-print
+print(player)
