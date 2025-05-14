@@ -42,7 +42,7 @@ for i in range(10):
 def showhand(hand, type):
     if type == player:
         for card in hand:
-            print(hand[card[]])
+            print(hand[card[0]] + str())
 
 
 
