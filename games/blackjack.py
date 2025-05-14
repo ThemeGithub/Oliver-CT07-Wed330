@@ -148,7 +148,7 @@ if bankervalue > playervalue:
         if playervalue <= 21:
             print("banker too addicted and lost cuz he go over")
         else:
-            print('you worse less than banker')
+            print('you worse than banker')
             print('you still very bad tho')
 elif bankervalue < playervalue:
     if playervalue <= 21:
@@ -158,7 +158,7 @@ elif bankervalue < playervalue:
             print('IMAGINE GOING OVER LOLOLOLO')
         else:
             print('uhh')
-            print('u still suck more tho')
+            print('u still  more tho')
 else:
     if bankervalue <= 21:
         print('its a tie')
