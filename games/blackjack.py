@@ -127,3 +127,6 @@ while True:
 
 bankervalue = bankermove(banker)
 playervalue = points(player)
+if bankervalue > playervalue:
+    if bankervalue <= 21:
+        
