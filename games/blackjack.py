@@ -77,3 +77,4 @@ while True:
         player.append(deck.pop())
     else:
         break
+    
