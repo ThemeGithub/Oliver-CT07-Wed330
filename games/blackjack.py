@@ -133,3 +133,4 @@ if bankervalue > playervalue:
     else:
         if playervalue <= 21:
             print("banker too addicted and lost cuz he go over")
+        else:
