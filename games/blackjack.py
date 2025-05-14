@@ -23,7 +23,7 @@ for suit in suits:
     for rank in ranks:
         deck.append([rank, suit])
 
-print("")
+diff = input('')
 
 # Step 2: Shuffle the deck
 for i in range(10):
