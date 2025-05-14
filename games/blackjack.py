@@ -112,7 +112,7 @@ def bankermove(hand):
         if end == 0:
             showhand(hand, "end")
             time.sleep(1.2)
-        print("")
+            print("")
     return banker
 
             
