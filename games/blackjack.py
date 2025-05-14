@@ -23,7 +23,7 @@ for suit in suits:
     for rank in ranks:
         deck.append([rank, suit])
 
-diff = input('')
+diff = input('Choose a difficulty; Pick between 1 and 10')
 
 # Step 2: Shuffle the deck
 for i in range(10):
