@@ -24,6 +24,7 @@ for suit in suits:
         deck.append([rank, suit])
 
 diff = input('Choose a difficulty; Pick between 1 and 10')
+diff = round(diff)
 
 # Step 2: Shuffle the deck
 for i in range(10):
@@ -34,6 +35,10 @@ def showhand(hand, type):
     if type == "player":
         for card in hand:
             print(f'{card[1]} {card[0]}')
+    elif type == "banker":
+        if diff >= 8:
+            for i in range(2):
+                print
 
 
 
