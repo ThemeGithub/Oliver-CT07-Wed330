@@ -69,10 +69,10 @@ def bankermove(hand):
     if diff == 1:
         if sum < 20:
             banker.append(deck.pop())
-    if diff == 1:
-        if sum < 20:
+    if diff == 2:
+        if sum < 19:
             banker.append(deck.pop())
-    if diff == 1:
+    if diff == 3:
         if sum < 20:
             banker.append(deck.pop())
         
