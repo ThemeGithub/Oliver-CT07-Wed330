@@ -16,7 +16,8 @@ values = {'2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9,
 
 # deck = [(rank, suit) for rank in ranks for suit in suits]
 deck = []
-
+player = []
+banker = []
 # Combine ranks and suits to build a deck of cards
 for suit in suits:
     for rank in ranks:
