@@ -135,3 +135,6 @@ if bankervalue > playervalue:
             print("banker too addicted and lost cuz he go over")
         else:
             print('you suck less than banker')
+            print('you still suck tho')
+elif bankervalue < playervalue:
+    if playervalue <= 
