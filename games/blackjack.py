@@ -104,6 +104,7 @@ def bankermove(hand):
             else:
                 end = 1
         showhand(hand, "banker")
+    return banker
 
             
         
