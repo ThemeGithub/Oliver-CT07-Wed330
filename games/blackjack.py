@@ -95,10 +95,12 @@ def bankermove(hand):
                 end = 1
         if diff > 6:
             left = 21 - sum
+            fail = 0
             for card in deck:
                 if values[card[0]] > left:
-                    fail = 1
-                    
+                    fail += 1
+            
+
             
         
 
