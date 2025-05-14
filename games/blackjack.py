@@ -125,4 +125,5 @@ while True:
     showhand(player, "player")
     showhand(banker, 'banker')
 
-bankermove(banker)
+bankervalue = bankermove(banker)
+playervalue = points(player)
