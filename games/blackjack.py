@@ -128,7 +128,7 @@ while True:
     showhand(player, "player")
     showhand(banker, 'banker')
 
-bankervalue = bankermove(banker)
+bankervalue = points(bankermove(banker))
 playervalue = points(player)
 if bankervalue > playervalue:
     if bankervalue <= 21:
