@@ -143,12 +143,12 @@ showhand(player, 'player')
 playervalue = points(player)
 if bankervalue > playervalue:
     if bankervalue <= 21:
-        print("Banker WINS! YOU SUCK LOLOLOLOLOL")
+        print("Banker WINS! YOU ARE SO BAD LOLOLOLOLOL")
     else:
         if playervalue <= 21:
             print("banker too addicted and lost cuz he go over")
         else:
-            print('you suck less than banker')
+            print('you worse less than banker')
             print('you still very bad tho')
 elif bankervalue < playervalue:
     if playervalue <= 21:
