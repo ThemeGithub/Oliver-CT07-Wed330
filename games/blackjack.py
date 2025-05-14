@@ -40,7 +40,7 @@ def showhand(hand, type):
             for i in range(2):
                 print("?????")
         else:
-            print(f'{card[1]} {card[0]}')
+            print(f'{hand[0][1]} {hand[0][0]}')
             print('?????')
 
 
