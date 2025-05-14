@@ -11,7 +11,7 @@ ranks = ['2','3','4','5','6','7','8','9','JACK','QUEEN','KING','ACE']
 def printboard(player, banker, shown):
     print("$" * 20)
     for i in range(shown):
-        print(banker[i[0]])
+        print(f'banker[i[0]]')
 
 
 
