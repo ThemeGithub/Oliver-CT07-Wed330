@@ -35,7 +35,8 @@ def showhand(hand, type):
     sum = points(hand)
     if type == "player" or type == "end":
         print("#" * 10)
-        print("PLAYER HAND")
+        if type == 'player':
+            print("PLAYER HAND")
         for card in hand:
             print(f'{card[1]} {card[0]}')
         print(f'Sum: {sum}')
