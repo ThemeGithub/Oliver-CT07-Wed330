@@ -149,4 +149,5 @@ else:
     if bankervalue <= 21:
         print('its a tie')
     else:
-        print()
+        print('both of u suck')
+    print('boringgggg')
