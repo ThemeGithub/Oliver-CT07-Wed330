@@ -38,7 +38,9 @@ def showhand(hand, type):
     elif type == "banker":
         if diff >= 8:
             for i in range(2):
-                print
+                print("?????")
+        else:
+            print
 
 
 
