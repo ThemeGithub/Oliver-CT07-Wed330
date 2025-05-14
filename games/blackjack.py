@@ -111,6 +111,7 @@ def bankermove(hand):
                 banker.append(deck.pop())
         showhand(hand, "end")
         time.sleep(1.2)
+        print("")
     return banker
 
             
