@@ -52,6 +52,7 @@ def showhand(hand, type):
         print('$' * 10)
 
 def points(hand):
+    aces = 0
     sum = 0
     for card in hand:
         cardpoint = values[card[0]]
