@@ -31,7 +31,7 @@ for i in range(10):
 
 
 def showhand(hand, type):
-    if type == p:
+    if type == "player":
         for card in hand:
             print(card[0] + str(card[1]))
 
