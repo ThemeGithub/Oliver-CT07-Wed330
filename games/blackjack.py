@@ -94,9 +94,9 @@ def bankermove(hand):
             else:
                 end = 1
         if diff > 6:
+            left = 21 - sum
             for i in deck:
                 pass
-            left = 21 - sum
             
         
 
