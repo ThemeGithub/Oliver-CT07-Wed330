@@ -11,7 +11,7 @@ ranks = ['2','3','4','5','6','7','8','9','JACK','QUEEN','KING','ACE']
 def printboard(player, banker, shown):
     print("$" * 20)
     for i in range(shown):
-        print(f'banker[i[0]]')
+        print(banker[i[0]])
 
 
 
@@ -38,6 +38,10 @@ for suit in suits:
 # Step 2: Shuffle the deck
 for i in range(10):
     random.shuffle(deck) # shuffle this 10 times
+
+
+
+
 
 player = [deck.pop(), deck.pop()]
 banker = [deck.pop(), deck.pop()]
