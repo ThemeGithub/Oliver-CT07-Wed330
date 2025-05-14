@@ -94,7 +94,8 @@ def bankermove(hand):
             else:
                 end = 1
         if diff > 6:
-            total = points()
+            total = points(deck)
+            
         
 
 player = [deck.pop(), deck.pop()]
