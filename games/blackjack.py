@@ -32,6 +32,7 @@ for i in range(10):
 
 
 def showhand(hand, type):
+    
     if type == "player":
         print("#" * 10)
         print("PLAYER HAND")
