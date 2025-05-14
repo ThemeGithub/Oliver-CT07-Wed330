@@ -66,6 +66,10 @@ def points(hand):
 
 def bankermove(hand):
     sum = points(hand)
+    if diff == 1:
+        if sum < 20:
+            banker.append(deck.pop())
+        
 
 player = [deck.pop(), deck.pop()]
 banker = [deck.pop(), deck.pop()]
