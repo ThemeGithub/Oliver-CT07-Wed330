@@ -37,9 +37,9 @@ def showhand(hand, type):
         print("PLAYER HAND")
         for card in hand:
             print(f'{card[1]} {card[0]}')
-        print('#' * 15)
+        print('#' * 10)
     elif type == "banker":
-        print('$' * 15)
+        print('$' * 10)
         print("BANKER HAND")
         if diff >= 8:
             for i in range(2):
@@ -47,7 +47,7 @@ def showhand(hand, type):
         else:
             print(f'{hand[0][1]} {hand[0][0]}')
             print('?????')
-        print('$' * 15)
+        print('$' * 10)
 
 
 
