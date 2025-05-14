@@ -7,6 +7,14 @@ import time
 suits = ["♣", "♦","❤","♠"]
 ranks = ['2','3','4','5','6','7','8','9','JACK','QUEEN','KING','ACE']
 
+
+def printboard(player, banker, shown):
+    print("#" * 20)
+
+
+
+
+
 # Step 1: Create the deck of cards
 # Create a dictionary to store the value of each card rank
 # Cards 2–10 are worth their face value, J, Q, K are worth 10, 
