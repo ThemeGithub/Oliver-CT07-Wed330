@@ -106,7 +106,7 @@ def bankermove(hand):
                     end = 1
             else:
                 banker.append(deck.pop())
-        showhand(hand, "player")
+        showhand(hand, "end")
     return banker
 
             
@@ -129,7 +129,7 @@ while True:
     showhand(banker, 'banker')
 
 bankervalue = points(bankermove(banker))
-showhand(banker, 'player')
+showhand(banker, 'end')
 
 playervalue = points(player)
 if bankervalue > playervalue:
