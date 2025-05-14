@@ -65,25 +65,36 @@ def points(hand):
     return sum
 
 def bankermove(hand):
-    sum = points(hand)
-    if diff == 1:
-        if sum < 20:
-            banker.append(deck.pop())
-    if diff == 2:
-        if sum < 19:
-            banker.append(deck.pop())
-    if diff == 3:
-        if sum < 18:
-            banker.append(deck.pop())
-    if diff == 4:
-        if sum < 17:
-            banker.append(deck.pop())
-    if diff == 5:
-        if sum < 16:
-            banker.append(deck.pop())
-    if diff == 6:
-        if sum < 1:
-            banker.append(deck.pop())
+    end = 0
+    while end == 0:
+        sum = points(hand)
+        if diff == 1:
+            if sum < 20:
+                banker.append(deck.pop())
+            else:
+                end = 1
+        if diff == 2:
+            if sum < 19:
+                banker.append(deck.pop())
+            else:
+                end = 1
+        if diff == 3:
+            if sum < 18:
+                banker.append(deck.pop())
+            else:
+                end = 1
+        if diff == 4:
+            if sum < 17:
+                banker.append(deck.pop())
+            else:
+                end = 1
+        if diff == 5 or diff == 6:
+            if sum < 16:
+                banker.append(deck.pop())
+            else:
+                end = 1
+        if diff > 6:
+            total = points()
         
 
 player = [deck.pop(), deck.pop()]
