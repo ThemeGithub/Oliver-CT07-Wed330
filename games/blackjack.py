@@ -73,4 +73,7 @@ showhand(banker, "banker")
 while True:
     print("1: Hit")
     print("2: Check")
-    
+    if input("Choose your move: ") == '1':
+        player.append(deck.pop())
+    else:
+        break
