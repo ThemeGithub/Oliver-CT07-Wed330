@@ -129,4 +129,4 @@ bankervalue = bankermove(banker)
 playervalue = points(player)
 if bankervalue > playervalue:
     if bankervalue <= 21:
-        
+        print("Banker WINS! YOU SUCK LOLOLOLOLOL")
