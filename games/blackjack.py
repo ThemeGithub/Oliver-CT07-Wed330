@@ -29,4 +29,5 @@ for suit in suits:
 for i in range(10):
     random.shuffle(deck) # shuffle this 10 times
 
-player
+player = [deck.pop, deck.pop]
+banker = 
