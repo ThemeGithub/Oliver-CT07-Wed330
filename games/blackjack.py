@@ -47,6 +47,7 @@ def showhand(hand, type):
         else:
             print(f'{hand[0][1]} {hand[0][0]}')
             print('?????')
+        print('$' * 15)
 
 
 
