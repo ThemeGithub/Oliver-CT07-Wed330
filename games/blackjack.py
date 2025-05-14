@@ -12,7 +12,7 @@ ranks = ['2','3','4','5','6','7','8','9','JACK','QUEEN','KING','ACE']
 # Cards 2–10 are worth their face value, J, Q, K are worth 10, 
 # and Ace can be 1 or 11
 values = {'2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9,
-'JACK':10, 'QUEEN':10,'KING':10, 'ACE':11}
+'JACK':10, 'QUEEN':10,'KING':10, 'ACE':1}
 
 # deck = [(rank, suit) for rank in ranks for suit in suits]
 deck = []
@@ -61,7 +61,7 @@ def points(hand):
             aces += 1
     for i in range(aces):
         if sum > 21:
-            sum -= 10
+            sum += 10
     return sum
 
 def bankermove(hand):
@@ -95,8 +95,10 @@ def bankermove(hand):
                 end = 1
         if diff > 6:
             left = 21 - sum
-            for i in deck:
-                pass
+            for card in deck:
+                if values[card[0]] > left:
+                    fail = 1
+                    
             
         
 
