@@ -158,10 +158,10 @@ elif bankervalue < playervalue:
             print('IMAGINE GOING OVER LOLOLOLO')
         else:
             print('uhh')
-            print('u still  more tho')
+            print('u still worse tho')
 else:
     if bankervalue <= 21:
         print('its a tie')
     else:
-        print('both of u suck')
+        print('both of u are so bad bruh')
     print('boringgggg')
