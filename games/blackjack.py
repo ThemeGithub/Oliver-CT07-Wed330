@@ -77,4 +77,5 @@ while True:
         player.append(deck.pop())
     else:
         break
-    
+    showhand(player, "player")
+    showhand(banker, 'banker')
