@@ -60,7 +60,7 @@ def points(hand):
     for card in hand:
         cardpoint = values[card[0]]
         sum += cardpoint
-        if card == 'ACE':
+        if card[0] == 'ACE':
             aces += 1
     for i in range(aces):
         if sum <= 11:
