@@ -52,7 +52,7 @@ def showhand(hand, type):
 def points(hand):
     sum = 0
     for card in hand:
-        sum += hand[0]
+        sum += card[0]
 
 player = [deck.pop(), deck.pop()]
 banker = [deck.pop(), deck.pop()]
