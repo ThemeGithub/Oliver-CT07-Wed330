@@ -54,7 +54,7 @@ def showhand(hand, type):
 def points(hand):
     sum = 0
     for card in hand:
-        sum += values[card[0][1]]
+        sum += values[card[1][0]]
     return sum
 
 player = [deck.pop(), deck.pop()]
