@@ -132,4 +132,4 @@ if bankervalue > playervalue:
         print("Banker WINS! YOU SUCK LOLOLOLOLOL")
     else:
         if playervalue <= 21:
-            print("")
+            print("banker too addicted and lost cuz he go over")
