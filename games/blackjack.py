@@ -53,6 +53,7 @@ def points(hand):
     sum = 0
     for card in hand:
         sum += card[0]
+    return sum
 
 player = [deck.pop(), deck.pop()]
 banker = [deck.pop(), deck.pop()]
